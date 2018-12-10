@@ -1,10 +1,10 @@
 {
-  "name": "instagram",
+  "name": "im_on_a_ride",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "client-install": "cd client && npm install",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
