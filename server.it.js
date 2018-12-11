@@ -9,11 +9,11 @@ describe('service', () => {
   beforeEach(() => mongoUnit.initDb(testMongoUrl, testData))
 
   it('should find all tasks', () => {
-    return service.getTasks()
-      .then(tasks => {
-        console.log(tasks)
-        expect(tasks.length).to.equal(1)
-        expect(tasks[0].name).to.equal('test')
+    return service.getAttractions()
+      .then(attractions => {
+        console.log(attractions)
+        expect(attractions.length).to.equal(1)
+        expect(attractions[0].name).to.equal('Stealth')
       })
   })
 })

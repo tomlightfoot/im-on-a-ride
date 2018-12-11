@@ -1,13 +1,17 @@
 const mongoose = require('mongoose')
-const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost:27017/example'
+const mongoUrl = process.env.MONGO_URL || 'mongodb://toml:toml12@ds129914.mlab.com:29914/im-on-a-ride'
 mongoose.connect(mongoUrl)
-const TaskSchema = new mongoose.Schema({
+
+const AttractionSchema = new mongoose.Schema({
   name: String,
-  started: Date,
-  completed: Boolean,
+  minAge: Number,
+  minHeight: Number,
+  rideTime: String,
+  thrillRating: Number,
+  video: String,
 })
-const Task = mongoose.model('tasks', TaskSchema)
+const Attraction = mongoose.model('Attractions', AttractionSchema, 'Attractions')
 
 module.exports = {
-  getTasks: () => Task.find()
+  getAttractions: () => Attraction.find()
 }

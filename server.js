@@ -1,18 +1,21 @@
 const express = require('express')
 const service = require('./service')
+const bodyParser = require('body-parser')
 const client = require('mongodb').MongoClient
 const app = express()
-
+app.use(bodyParser.json())
 app.use(express.static(`${__dirname}/static`))
-app.get('/example', (req, res) => {
- service.getTasks().then(tasks => res.json(tasks))
+
+app.get('/attractions', (req, res) => {
+  console.log(service)
+  service.getAttractions().then(attractions => res.json(attractions))
 })
 
 // Serve static assests if in production
 if(process.env.NODE_ENV === 'production'){
   // Set static folder
   app.use(express.static('client/build'));
-
+  
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
