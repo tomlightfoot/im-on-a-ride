@@ -15,7 +15,7 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/thorpe/map" component={ThorpeMap} />
         <Route path="/alton/map" component={AltonMap} />
-        <Route path="/chessington/map" component={ChessMap} />
+        <Route path="/chess/map" component={ChessMap} />
         <Route path="/lego/map" component={LegoMap} />
       </div>
   </Router>,

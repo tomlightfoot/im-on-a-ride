@@ -14,10 +14,14 @@ class App extends Component {
         {title}
       </div>
       <div id='buttonMenu'>
+        <Router>
+          <div>
         <Link to='/thorpe/map'><Button name='Thorpe Park'/></Link>
         <Link to='/alton/map'><Button name='Alton Towers'/></Link>
         <Link to='/chessington/map'><Button name='Chessington: World of Adventures'/></Link>
         <Link to='/lego/map'><Button name='LegoLand'/></Link>
+        </div>
+        </Router>
       </div>
       </div>
     )
