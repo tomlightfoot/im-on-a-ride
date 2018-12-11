@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Button from './components/button'
 import './App.css';
 
@@ -14,22 +14,14 @@ class App extends Component {
         {title}
       </div>
       <div>
-        <Button name='Thorpe Park'/>
-        <Button name='Alton Towers'/>
-        <Button name='Chessington: World of Adventures'/>
-        <Button name='LegoLand'/>
+        <Link to='/thorpe/map'><Button to='/thorpe/map'name='Thorpe Park'/></Link>
+        <Link to='/alton/map'><Button name='Alton Towers'/></Link>
+        <Link to='/chessington/map'><Button name='Chessington: World of Adventures'/></Link>
+        <Link to='/lego/map'><Button name='LegoLand'/></Link>
       </div>
       </div>
     )
   }
-}
-
-function Map() {
-  return (
-    <div>
-      <h2>"Map"</h2>
-    </div>
-  );
 }
 
 export default App;
