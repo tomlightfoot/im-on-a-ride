@@ -13,8 +13,8 @@ class App extends Component {
       <div id='title'>
         {title}
       </div>
-      <div>
-        <Link to='/thorpe/map'><Button to='/thorpe/map'name='Thorpe Park'/></Link>
+      <div id='buttonMenu'>
+        <Link to='/thorpe/map'><Button name='Thorpe Park'/></Link>
         <Link to='/alton/map'><Button name='Alton Towers'/></Link>
         <Link to='/chessington/map'><Button name='Chessington: World of Adventures'/></Link>
         <Link to='/lego/map'><Button name='LegoLand'/></Link>
