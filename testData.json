@@ -1,12 +1,21 @@
 {
    "Attractions": [
-   {
-     "name": "Stealth",
-     "minAge": 0,
-     "minHeight": 1.4,
-     "rideTime": "00:26",
-     "thrillRating": 5,
-     "video": "https://www.youtube.com/watch?v=p3KGBjqIbfc"
-   }
- ]
+       {
+        "_id": "5c0e57a5fb6fc04dd6e937ef",
+        "park": "thorpe park",
+        "name": "Stealth",
+        "thrill": 5,
+        "video": "https://www.youtube.com/watch?v=p3KGBjqIbfc&t=1s",
+        "ridetime": "00:45",
+        "category": "rollercoaster",
+        "minheight": "1.4m"
+    }
+  ],
+  "Facilities": [
+      {
+     "_id": "5c0e57a5fb6fc04dd6e937ez",
+     "park": "thorpe park",
+     "type": "Toilet"
+    }
+  ]
 }

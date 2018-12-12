@@ -10,7 +10,7 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
-    "test": "mocha --require ./it-helper.js --recursive ./*.it.js"
+    "test": "mocha --require ./it-helper.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "express": "^4.16.4",
     "mocha": "^5.2.0",
     "mongoose": "^5.3.15",
+    "node": "^11.4.0",
     "nodemon": "^1.18.7"
   },
   "devDependencies": {
