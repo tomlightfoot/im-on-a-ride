@@ -1,31 +1,25 @@
 import React, { Component } from 'react'
-
 import ReactDOM from "react-dom";
-
 import AttractionsFilter from '../attractionsFilter'
 import FacilitiesFilter from '../facilitiesFilter'
-
 import '.././styles/ThorpeParkMap.css';
 import '../../App.css'
 import InfoBox from '../InfoBox'
 import { Link } from "react-router-dom";
-
 import Button from '../button'
 
 const title = <h1>Thorpe Park</h1>
-
-  const Modal = ({ handleClose, show, children }) => {
-    const showHideClassName = show ? "modal display-block" : "modal display-none";
-    return (
-      <div className={showHideClassName}>
-        <section className="modal-main">
-          {children}
-          <button onClick={handleClose}>close</button>
-        </section>
-      </div>
-    );
-  }
-
+const Modal = ({ handleClose, show, children }) => {
+  const showHideClassName = show ? "modal display-block" : "modal display-none";
+  return (
+    <div className={showHideClassName}>
+      <section className="modal-main">
+        {children}
+        <button onClick={handleClose}>close</button>
+      </section>
+    </div>
+  );
+}
 
 class ThorpeParkMap extends Component {
 
@@ -60,15 +54,7 @@ class ThorpeParkMap extends Component {
 
   render() {
     return (
-
-
-      
-      
-      
-      
-      
       <div className="containerForMap">
-
 
       {title}
         <div id='map'>
