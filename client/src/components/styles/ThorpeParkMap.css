@@ -6,15 +6,347 @@
   height: 100vh;
 }
 
-@media only screen and (min-width: 768px){
+.containerForMap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  .containerForMap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+@media only screen and (max-width: 560px) {
+  #map {
+    background-image: url('.././images/turnPhone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 300px;
+    height: 300px;
   }
+}
+
+@media only screen and (min-width: 561px){
+
+  #map {
+    background-image: url('.././images/map3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 581px;
+    height: 453px;
+  }
+
+  #swarm {
+    width: 150px;
+    height: 55px;
+    border-radius: 64px;
+    border: 2px solid black;
+    margin-top: 35px;
+    margin-left: 140px;
+    position: absolute;
+  }
+
+  #rumbaRapids {
+    width: 110px;
+    height: 110px;
+    border-radius: 74px;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 140px;
+    position: absolute;
+  }
+
+  #nemesis {
+    width: 70px;
+    height: 35px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 170px;
+    margin-top: 240px;
+    position: absolute;
+    transform: rotate(138deg);
+  }
+
+  #celebrity {
+    width: 50px;
+    height: 25px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 208px;
+    margin-top: 280px;
+    position: absolute;
+    transform: rotate(26deg);
+  }
+
+  #derrenBrown {
+    width: 15px;
+    height: 66px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 291px;
+    margin-top: 235px;
+    position: absolute;
+    transform: rotate(203deg);
+  }
+
+  #stormSurge {
+    width: 15px;
+    height: 100px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 330px;
+    margin-top: 155px;
+    position: absolute;
+    transform: rotate(153deg);
+  }
+
+  #saw {
+    width: 48px;
+    height: 65px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 390px;
+    margin-top: 325px;
+    position: absolute;
+    transform: rotate(195deg);
+  }
+
+  #stealth {
+    width: 125px;
+    height: 30px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 126px;
+    margin-top: 118px;
+    position: absolute;
+    transform: rotate(158deg);
+  }
+
+  #flyingFish {
+    width: 35px;
+    height: 25px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 273px;
+    margin-top: 89px;
+    position: absolute;
+    transform: rotate(115deg);
+  }
+
+  #rockyExpress {
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 331px;
+    margin-top: 382px;
+    position: absolute;
+  }
+
+  #detonator {
+    width: 17px;
+    height: 17px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 217px;
+    margin-top: 217px;
+    position: absolute;
+  }
+
+  #amityBeach {
+    width: 76px;
+    height: 25px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 294px;
+    margin-top: 122px;
+    position: absolute;
+    transform: rotate(56deg);
+  }
+
+  #wet {
+    width: 30px;
+    height: 16px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 307px;
+    margin-top: 90px;
+    position: absolute;
+    transform: rotate(72deg);
+  }
+
+  #depthCharge {
+    width: 68px;
+    height: 10px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 308px;
+    margin-top: 101px;
+    position: absolute;
+    transform: rotate(72deg);
+  }
+
+  #tidalWave {
+    width: 128px;
+    height: 23px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 195px;
+    margin-top: 138px;
+    position: absolute;
+    transform: rotate(9deg);
+  }
+
+  #stormCup {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 172px;
+    margin-top: 169px;
+    position: absolute;
+  }
+
+  #colossus {
+    width: 165px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 288px;
+    margin-top: 250px;
+    position: absolute;
+    transform: rotate(111deg);
+  }
+
+  #vortex {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 418px;
+    margin-top: 132px;
+    position: absolute;
+  }
+
+  #zodiak {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 405px;
+    margin-top: 160px;
+    position: absolute;
+  }
+
+  #rush {
+    width: 08px;
+    height: 20px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 384px;
+    margin-top: 166px;
+    position: absolute;
+  }
+
+  #quantum {
+    width: 15px;
+    height: 15px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 382px;
+    margin-top: 143px;
+    position: absolute;
+  }
+
+  #dome {
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 362px;
+    margin-top: 78px;
+    position: absolute;
+  }
+
+  #samuri {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 366px;
+    margin-top: 346px;
+    position: absolute;
+  }
+
+  #angryBirds {
+    width: 23px;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 190px;
+    margin-top: 198px;
+    position: absolute;
+    transform: rotate(43deg);
+  }
+
+  #kingPig {
+    width: 15px;
+    height: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 211px;
+    margin-top: 160px;
+    position: absolute;
+    transform: rotate(38deg);
+  }
+
+  #monkey {
+    width: 20px;
+    height: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 238px;
+    margin-top: 275px;
+    position: absolute;
+    transform: rotate(34deg);
+  }
+
+  #livingNightmare {
+    width: 35px;
+    height: 55px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 313px;
+    margin-top: 243px;
+    position: absolute;
+    transform: rotate(19deg);
+  }
+
+  #lumber {
+    width: 10px;
+    height: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 310px;
+    margin-top: 376px;
+    position: absolute;
+    transform: rotate(107deg);
+  }
+
+  #timber {
+    width: 27px;
+    height: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 305px;
+    margin-top: 395px;
+    position: absolute;
+    transform: rotate(47deg);
+  }
+
+}
+
+@media only screen and (min-width: 768px){
 
   #map {
     background-image: url('.././images/map3.png');
@@ -22,6 +354,7 @@
     background-repeat: no-repeat;
     position: relative;
     width: 768px;
+    height: 620px;
   }
 
   #swarm {
@@ -29,18 +362,18 @@
     height: 90px;
     border-radius: 64px;
     border: 2px solid black;
-    margin-top: 45px;
-    margin-left: 200px;
+    margin-top: 40px;
+    margin-left: 190px;
     position: absolute;
   }
 
   #rumbaRapids {
     width: 150px;
     height: 150px;
-    border-radius: 64px;
+    border-radius: 74px;
     border: 2px solid black;
-    margin-left: 75px;
-    margin-top: 210px;
+    margin-left: 70px;
+    margin-top: 190px;
     position: absolute;
   }
 
@@ -49,8 +382,8 @@
     height: 70px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 240px;
-    margin-top: 340px;
+    margin-left: 223px;
+    margin-top: 325px;
     position: absolute;
     transform: rotate(138deg);
   }
@@ -60,19 +393,19 @@
     height: 30px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 306px;
-    margin-top: 405px;
+    margin-left: 288px;
+    margin-top: 383px;
     position: absolute;
     transform: rotate(26deg);
   }
 
   #derrenBrown {
-    width: 25px;
+    width: 20px;
     height: 75px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 420px;
-    margin-top: 345px;
+    margin-left: 403px;
+    margin-top: 325px;
     position: absolute;
     transform: rotate(203deg);
   }
@@ -82,8 +415,8 @@
     height: 140px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 472px;
-    margin-top: 228px;
+    margin-left: 448px;
+    margin-top: 215px;
     position: absolute;
     transform: rotate(153deg);
   }
@@ -93,8 +426,8 @@
     height: 85px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 558px;
-    margin-top: 470px;
+    margin-left: 538px;
+    margin-top: 445px;
     position: absolute;
   }
 
@@ -103,8 +436,8 @@
     height: 40px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 176px;
-    margin-top: 175px;
+    margin-left: 168px;
+    margin-top: 165px;
     position: absolute;
     transform: rotate(158deg);
   }
@@ -114,8 +447,8 @@
     height: 30px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 390px;
-    margin-top: 132px;
+    margin-left: 372px;
+    margin-top: 125px;
     position: absolute;
     transform: rotate(115deg);
   }
@@ -125,8 +458,8 @@
     height: 13px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 476px;
-    margin-top: 550px;
+    margin-left: 454px;
+    margin-top: 524px;
     position: absolute;
   }
 
@@ -135,8 +468,8 @@
     height: 17px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 315px;
-    margin-top: 314px;
+    margin-left: 300px;
+    margin-top: 300px;
     position: absolute;
   }
 
@@ -145,41 +478,41 @@
     height: 40px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 440px;
-    margin-top: 185px;
+    margin-left: 422px;
+    margin-top: 168px;
     position: absolute;
     transform: rotate(56deg);
   }
 
   #wet {
     width: 38px;
-    height: 19px;
+    height: 24px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 446px;
-    margin-top: 127px;
+    margin-left: 426px;
+    margin-top: 123px;
     position: absolute;
     transform: rotate(72deg);
   }
 
   #depthCharge {
-    width: 90px;
+    width: 92px;
     height: 13px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 444px;
-    margin-top: 142px;
+    margin-left: 422px;
+    margin-top: 140px;
     position: absolute;
     transform: rotate(72deg);
   }
 
   #tidalWave {
-    width: 152px;
+    width: 158px;
     height: 33px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 290px;
-    margin-top: 205px;
+    margin-left: 275px;
+    margin-top: 190px;
     position: absolute;
     transform: rotate(9deg);
   }
@@ -189,18 +522,18 @@
     height: 25px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 250px;
-    margin-top: 246px;
+    margin-left: 238px;
+    margin-top: 234px;
     position: absolute;
   }
 
   #colossus {
     width: 230px;
-    height: 55px;
+    height: 60px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 416px;
-    margin-top: 363px;
+    margin-left: 388px;
+    margin-top: 346px;
     position: absolute;
     transform: rotate(111deg);
   }
@@ -210,8 +543,8 @@
     height: 30px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 600px;
-    margin-top: 195px;
+    margin-left: 570px;
+    margin-top: 185px;
     position: absolute;
   }
 
@@ -220,8 +553,8 @@
     height: 25px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 583px;
-    margin-top: 233px;
+    margin-left: 556px;
+    margin-top: 221px;
     position: absolute;
   }
 
@@ -230,8 +563,8 @@
     height: 35px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 552px;
-    margin-top: 239px;
+    margin-left: 525px;
+    margin-top: 226px;
     position: absolute;
   }
 
@@ -240,8 +573,8 @@
     height: 18px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 548px;
-    margin-top: 208px;
+    margin-left: 524px;
+    margin-top: 197px;
     position: absolute;
   }
 
@@ -250,8 +583,8 @@
     height: 80px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 523px;
-    margin-top: 118px;
+    margin-left: 498px;
+    margin-top: 110px;
     position: absolute;
   }
 
@@ -260,8 +593,8 @@
     height: 26px;
     border-radius: 90px;
     border: 2px solid black;
-    margin-left: 528px;
-    margin-top: 498px;
+    margin-left: 503px;
+    margin-top: 475px;
     position: absolute;
   }
 
@@ -270,8 +603,8 @@
     height: 20px;
     border-radius: 10px;
     border: 2px solid black;
-    margin-left: 272px;
-    margin-top: 280px;
+    margin-left: 258px;
+    margin-top: 265px;
     position: absolute;
     transform: rotate(43deg);
   }
@@ -281,8 +614,8 @@
     height: 20px;
     border-radius: 20px;
     border: 2px solid black;
-    margin-left: 304px;
-    margin-top: 229px;
+    margin-left: 288px;
+    margin-top: 216px;
     position: absolute;
     transform: rotate(38deg);
   }
@@ -292,8 +625,8 @@
     height: 15px;
     border-radius: 20px;
     border: 2px solid black;
-    margin-left: 341px;
-    margin-top: 396px;
+    margin-left: 325px;
+    margin-top: 378px;
     position: absolute;
     transform: rotate(34deg);
   }
@@ -303,8 +636,8 @@
     height: 85px;
     border-radius: 20px;
     border: 2px solid black;
-    margin-left: 447px;
-    margin-top: 350px;
+    margin-left: 425px;
+    margin-top: 333px;
     position: absolute;
     transform: rotate(19deg);
   }
@@ -314,8 +647,8 @@
     height: 8px;
     border-radius: 20px;
     border: 2px solid black;
-    margin-left: 443px;
-    margin-top: 540px;
+    margin-left: 423px;
+    margin-top: 516px;
     position: absolute;
     transform: rotate(107deg);
   }
@@ -325,8 +658,328 @@
     height: 14px;
     border-radius: 20px;
     border: 2px solid black;
-    margin-left: 440px;
-    margin-top: 566px;
+    margin-left: 420px;
+    margin-top: 540px;
+    position: absolute;
+    transform: rotate(47deg);
+  }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+  #map {
+    background-image: url('.././images/map3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1200px;
+    height: 970px;
+  }
+
+  #swarm {
+    width: 240px;
+    height: 120px;
+    border-radius: 64px;
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: 310px;
+    position: absolute;
+  }
+
+  #rumbaRapids {
+    width: 200px;
+    height: 200px;
+    border-radius: 94px;
+    border: 2px solid black;
+    margin-left: 125px;
+    margin-top: 320px;
+    position: absolute;
+  }
+
+  #nemesis {
+    width: 185px;
+    height: 80px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 320px;
+    margin-top: 520px;
+    position: absolute;
+    transform: rotate(358deg);
+  }
+
+  #celebrity {
+    width: 90px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 460px;
+    margin-top: 605px;
+    position: absolute;
+    transform: rotate(26deg);
+  }
+
+  #derrenBrown {
+    width: 30px;
+    height: 115px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 630px;
+    margin-top: 515px;
+    position: absolute;
+    transform: rotate(203deg);
+  }
+
+  #stormSurge {
+    width: 35px;
+    height: 220px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 710px;
+    margin-top: 338px;
+    position: absolute;
+    transform: rotate(153deg);
+  }
+
+  #saw {
+    width: 110px;
+    height: 155px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 838px;
+    margin-top: 700px;
+    position: absolute;
+  }
+
+  #stealth {
+    width: 270px;
+    height: 60px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 260px;
+    margin-top: 260px;
+    position: absolute;
+    transform: rotate(158deg);
+  }
+
+  #flyingFish {
+    width: 80px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 587px;
+    margin-top: 197px;
+    position: absolute;
+    transform: rotate(115deg);
+  }
+
+  #rockyExpress {
+    width: 17px;
+    height: 17px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 714px;
+    margin-top: 824px;
+    position: absolute;
+  }
+
+  #detonator {
+    width: 25px;
+    height: 25px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 470px;
+    margin-top: 470px;
+    position: absolute;
+  }
+
+  #amityBeach {
+    width: 150px;
+    height: 70px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 640px;
+    margin-top: 260px;
+    position: absolute;
+    transform: rotate(deg);
+  }
+
+  #wet {
+    width: 65px;
+    height: 35px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 665px;
+    margin-top: 190px;
+    position: absolute;
+    transform: rotate(72deg);
+  }
+
+  #depthCharge {
+    width: 152px;
+    height: 22px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 654px;
+    margin-top: 214px;
+    position: absolute;
+    transform: rotate(72deg);
+  }
+
+  #tidalWave {
+    width: 225px;
+    height: 63px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 436px;
+    margin-top: 295px;
+    position: absolute;
+    transform: rotate(9deg);
+  }
+
+  #stormCup {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 373px;
+    margin-top: 367px;
+    position: absolute;
+  }
+
+  #colossus {
+    width: 350px;
+    height: 75px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 616px;
+    margin-top: 545px;
+    position: absolute;
+    transform: rotate(111deg);
+  }
+
+  #vortex {
+    width: 35px;
+    height: 35px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 900px;
+    margin-top: 295px;
+    position: absolute;
+  }
+
+  #zodiak {
+    width: 33px;
+    height: 33px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 875px;
+    margin-top: 350px;
+    position: absolute;
+  }
+
+  #rush {
+    width: 15px;
+    height: 55px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 824px;
+    margin-top: 356px;
+    position: absolute;
+  }
+
+  #quantum {
+    width: 30px;
+    height: 30px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 818px;
+    margin-top: 308px;
+    position: absolute;
+  }
+
+  #dome {
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 783px;
+    margin-top: 178px;
+    position: absolute;
+  }
+
+  #samuri {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid black;
+    margin-left: 789px;
+    margin-top: 746px;
+    position: absolute;
+  }
+
+  #angryBirds {
+    width: 46px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 412px;
+    margin-top: 420px;
+    position: absolute;
+    transform: rotate(43deg);
+  }
+
+  #kingPig {
+    width: 35px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 455px;
+    margin-top: 339px;
+    position: absolute;
+    transform: rotate(38deg);
+  }
+
+  #monkey {
+    width: 35px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 513px;
+    margin-top: 591px;
+    position: absolute;
+    transform: rotate(34deg);
+  }
+
+  #livingNightmare {
+    width: 84px;
+    height: 115px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 670px;
+    margin-top: 530px;
+    position: absolute;
+    transform: rotate(20deg);
+  }
+
+  #lumber {
+    width: 27px;
+    height: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 663px;
+    margin-top: 809px;
+    position: absolute;
+    transform: rotate(107deg);
+  }
+
+  #timber {
+    width: 67px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 660px;
+    margin-top: 848px;
     position: absolute;
     transform: rotate(47deg);
   }

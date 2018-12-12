@@ -1,6 +1,6 @@
 #buttonMenu {
   background-color: #bbb;
-  width: 50vw;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ h1 {
   color: black;
   margin: 5px;
   padding: 10px 24px;
-  width: 50%;
+  width: 100%;
 }
 
 button {
