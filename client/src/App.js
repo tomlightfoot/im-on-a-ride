@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Button from './components/button'
 import './App.css';
-import ThorpeParkMap from './components/maps/thorpemap'
+import ThorpeParkMap from './components/ThorpeParkMap'
 import AltonMap from './components/maps/altonmap'
 import ChessMap from './components/maps/chessmap'
 import LegoMap from './components/maps/legomap'
