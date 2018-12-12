@@ -1,29 +1,37 @@
 #buttonMenu {
   background-color: #bbb;
-  width: 50vw;
+  width: 100vw;
   margin: 0 auto;
+  position: sticky;
 }
 
 h1 {
   text-align:center;
 }
 
-#buttonMenu button {
-  background-color: #DA70D6;
-  border: 5px solid black;
-  color: black;
-  margin: 5px;
-  padding: 10px 24px;
-  width: 50%;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  height:40px;
-  position:relative;
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
   top:50%;
   left:50%;
-  padding: 10px;
-  margin: 0 auto;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
 }
