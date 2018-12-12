@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import AttractionsFilter from './attractionsFilter'
+import FacilitiesFilter from './facilitiesFilter'
 import './ThorpeParkMap.css';
 
 class ThorpeParkMap extends Component {
@@ -36,6 +38,8 @@ class ThorpeParkMap extends Component {
           <div id="livingNightmare" className="ride"></div>
           <div id="lumber" className="ride"></div>
           <div id="timber" className="ride"></div>
+          <div id="attractionsFilter"><AttractionsFilter /></div>
+          <div id="facilitiesFilter"><FacilitiesFilter /></div>
         </div>
       </div>
     )

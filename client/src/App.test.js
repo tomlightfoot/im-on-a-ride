@@ -17,7 +17,7 @@ describe('Main menu', () => {
 
   it('has a title', () => {
     const app = shallow(<App />)
-      expect(app.contains(<h1>I'm on a Ride!</h1>)).toBe(true);
+      expect(app.contains(<h1>Im on a Ride!</h1>)).toBe(true);
   })
 })
 
