@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ThorpeMap from './components/maps/thorpemap'
-import AltonMap from './components/maps/altonmap'
-import ChessMap from './components/maps/chessmap'
-import LegoMap from './components/maps/legomap'
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 

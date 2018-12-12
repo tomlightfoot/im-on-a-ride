@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import './ThorpeParkMap.css';
+import '.././styles/ThorpeParkMap.css';
+
+const title = <h1>Thorpe Park</h1>
 
 class ThorpeParkMap extends Component {
 
   render() {
     return (
       <div className="containerForMap">
+      {title}
         <div id='map'>
           <div id="swarm" className="ride"></div>
           <div id="rumbaRapids" className="ride"></div>
