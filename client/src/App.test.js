@@ -13,7 +13,6 @@ it('renders without crashing', () => {
 });
 
 describe('Main menu', () => {
-
   it('has a title', () => {
     const app = mount(<App />)
       expect(app.contains(<h1>I'm on a Ride!</h1>)).toBe(true);

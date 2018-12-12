@@ -18,6 +18,15 @@ h1 {
   background: rgba(0, 0, 0, 0.6);
 }
 
+#buttonMenu button {
+  background-color: #DA70D6;
+  border: 5px solid black;
+  color: black;
+  margin: 5px;
+  padding: 10px 24px;
+  width: 100%;
+}
+
 .modal-main {
   position:fixed;
   background: white;

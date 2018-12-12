@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
+
 import ReactDOM from "react-dom";
+
+import AttractionsFilter from '../attractionsFilter'
+import FacilitiesFilter from '../facilitiesFilter'
+
 import '.././styles/ThorpeParkMap.css';
 import '../../App.css'
 import InfoBox from '../InfoBox'
@@ -57,6 +62,11 @@ class ThorpeParkMap extends Component {
     return (
 
 
+      
+      
+      
+      
+      
       <div className="containerForMap">
 
 
@@ -95,6 +105,8 @@ class ThorpeParkMap extends Component {
           <Modal feature={this.state.feature} show={this.state.show} handleClose={this.hideModal}></Modal>
           <InfoBox feature={this.state.feature} />
           </main>
+          <div id="attractionsFilter"><AttractionsFilter /></div>
+          <div id="facilitiesFilter"><FacilitiesFilter /></div>
 
         </div>
         <Link to='/'><Button class='back' name='back' /></Link>
