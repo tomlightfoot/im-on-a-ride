@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Page from 'react-page-object'
 import App from './App';
+import ThorpeMap from './components/maps/thorpemap';
 import renderer from 'react-test-renderer';
 import {shallow, mount} from 'enzyme';
 import { BrowserRouter, Link } from 'react-router-dom'
@@ -24,6 +25,7 @@ describe('Button clicks', () => {
 
   let page
 
+
   beforeEach(() => {
     page = new Page(<App />)
   })
@@ -35,6 +37,7 @@ describe('Button clicks', () => {
   it('goes to the thorpe park map', () => {
     expect(page.currentPath()).toEqual('/')
     page.clickLink('/thorpe/map')
+    expect(page.content()).toMatch('Hello, this is where the thorpe park map will go')
     expect(page.currentPath()).toEqual('/thorpe/map')
   })
 

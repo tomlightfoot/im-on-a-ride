@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "enzyme": "^3.8.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
-    "react-test-renderer": "^16.6.3"
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,11 +25,13 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.2.0",
     "faker": "^4.1.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
     "puppeteer": "^1.11.0",
-    "react-page-object": "^1.1.0"
+    "react-page-object": "^1.1.0",
+    "react-test-renderer": "^16.6.3"
   }
 }

@@ -11,13 +11,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
-      <div>
-        <Route exact path="/" component={App} />
-        <Route path="/thorpe/map" component={ThorpeMap} />
-        <Route path="/alton/map" component={AltonMap} />
-        <Route path="/chess/map" component={ChessMap} />
-        <Route path="/lego/map" component={LegoMap} />
-      </div>
+      <App />
   </Router>,
   document.getElementById('root')
 )
