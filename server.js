@@ -6,11 +6,10 @@ app.use(bodyParser.json())
 app.use(express.static(`${__dirname}/static`))
 
 app.get('/attractions', (req, res) => {
-  console.log(service)
+  console.log("hello")
   service.getAttractions().then(attractions => res.json(attractions))
 })
 app.get('/facilities', (req, res) => {
-  console.log(service)
   service.getFacilities().then(facilities => res.json(facilities))
 })
 
