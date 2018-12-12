@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
+<<<<<<< HEAD:client/src/components/ThorpeParkMap.js
 import AttractionsFilter from './attractionsFilter'
 import FacilitiesFilter from './facilitiesFilter'
 import './ThorpeParkMap.css';
+=======
+import '.././styles/ThorpeParkMap.css';
+
+const title = <h1>Thorpe Park</h1>
+>>>>>>> 828f059d7e03d7ffa50bbdb3a0582f5e88c74e18:client/src/components/maps/ThorpeParkMap.js
 
 class ThorpeParkMap extends Component {
 
   render() {
     return (
       <div className="containerForMap">
+      {title}
         <div id='map'>
           <div id="swarm" className="ride"></div>
           <div id="rumbaRapids" className="ride"></div>

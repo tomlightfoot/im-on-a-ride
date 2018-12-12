@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Button from './components/button'
 import './App.css';
-import ThorpeParkMap from './components/ThorpeParkMap'
+import ThorpeParkMap from './components/maps/ThorpeParkMap'
 import AltonMap from './components/maps/altonmap'
 import ChessMap from './components/maps/chessmap'
 import LegoMap from './components/maps/legomap'
@@ -33,6 +33,7 @@ class App extends Component {
 
       <div id='king'>
         <div id='buttonMenu'>
+          <Router>
           <Switch>
             <Route exact path='/' component={MyMenu} />
             <Route path='/thorpe/map' component={ThorpeParkMap} />
@@ -40,6 +41,7 @@ class App extends Component {
             <Route path='/chess/map' component={ChessMap} />
             <Route path='/lego/map' component={LegoMap} />
           </Switch>
+          </Router>
         </div>
       </div>
     )

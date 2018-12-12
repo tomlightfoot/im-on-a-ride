@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Page from 'react-page-object'
 import App from './App';
-import ThorpeMap from './components/maps/thorpemap';
 import renderer from 'react-test-renderer';
 import {shallow, mount} from 'enzyme';
 import { BrowserRouter, Link } from 'react-router-dom'
@@ -16,8 +15,13 @@ it('renders without crashing', () => {
 describe('Main menu', () => {
 
   it('has a title', () => {
+<<<<<<< HEAD
     const app = shallow(<App />)
       expect(app.contains(<h1>Im on a Ride!</h1>)).toBe(true);
+=======
+    const app = mount(<App />)
+      expect(app.contains(<h1>I'm on a Ride!</h1>)).toBe(true);
+>>>>>>> 828f059d7e03d7ffa50bbdb3a0582f5e88c74e18
   })
 })
 
@@ -37,25 +41,28 @@ describe('Button clicks', () => {
   it('goes to the thorpe park map', () => {
     expect(page.currentPath()).toEqual('/')
     page.clickLink('/thorpe/map')
-    expect(page.content()).toMatch('Hello, this is where the thorpe park map will go')
+    expect(page.content()).toMatch('Thorpe Park')
     expect(page.currentPath()).toEqual('/thorpe/map')
   })
 
   it('goes to the alton towers map', () => {
     expect(page.currentPath()).toEqual('/')
     page.clickLink('/alton/map')
+    expect(page.content()).toMatch('Hello, this is where the Alton Towers map will go')
     expect(page.currentPath()).toEqual('/alton/map')
   })
 
   it('goes to the chessington map', () => {
     expect(page.currentPath()).toEqual('/')
-    page.clickLink('/chessington/map')
-    expect(page.currentPath()).toEqual('/chessington/map')
+    page.clickLink('/chess/map')
+    expect(page.content()).toMatch('Hello, this is where the Chessington map will go')
+    expect(page.currentPath()).toEqual('/chess/map')
   })
 
   it('goes to the legoland map', () => {
     expect(page.currentPath()).toEqual('/')
     page.clickLink('/lego/map')
+    expect(page.content()).toMatch('Hello, this is where the LegoLand park map will go')
     expect(page.currentPath()).toEqual('/lego/map')
   })
 
