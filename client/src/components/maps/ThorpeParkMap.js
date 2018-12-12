@@ -1,13 +1,9 @@
 import React, { Component } from 'react'
-<<<<<<< HEAD:client/src/components/ThorpeParkMap.js
-import AttractionsFilter from './attractionsFilter'
-import FacilitiesFilter from './facilitiesFilter'
-import './ThorpeParkMap.css';
-=======
+import AttractionsFilter from '../attractionsFilter'
+import FacilitiesFilter from '../facilitiesFilter'
 import '.././styles/ThorpeParkMap.css';
 
 const title = <h1>Thorpe Park</h1>
->>>>>>> 828f059d7e03d7ffa50bbdb3a0582f5e88c74e18:client/src/components/maps/ThorpeParkMap.js
 
 class ThorpeParkMap extends Component {
 

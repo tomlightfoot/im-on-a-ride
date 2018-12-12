@@ -13,15 +13,9 @@ it('renders without crashing', () => {
 });
 
 describe('Main menu', () => {
-
   it('has a title', () => {
-<<<<<<< HEAD
-    const app = shallow(<App />)
-      expect(app.contains(<h1>Im on a Ride!</h1>)).toBe(true);
-=======
     const app = mount(<App />)
       expect(app.contains(<h1>I'm on a Ride!</h1>)).toBe(true);
->>>>>>> 828f059d7e03d7ffa50bbdb3a0582f5e88c74e18
   })
 })
 
