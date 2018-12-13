@@ -1,25 +1,11 @@
 import React, { Component } from 'react'
-import ReactDOM from "react-dom";
-import AttractionsFilter from '../attractionsFilter'
-import FacilitiesFilter from '../facilitiesFilter'
 import '.././styles/ThorpeParkMap.css';
 import '../../App.css'
-import InfoBox from '../InfoBox'
+import InfoBox from '../../components/modal/InfoBox'
 import { Link } from "react-router-dom";
 import Button from '../button'
 
 const title = <h1>Thorpe Park</h1>
-const Modal = ({ handleClose, show, children }) => {
-  const showHideClassName = show ? "modal display-block" : "modal display-none";
-  return (
-    <div className={showHideClassName}>
-      <section className="modal-main">
-        {children}
-        <button onClick={handleClose}>close</button>
-      </section>
-    </div>
-  );
-}
 
 class ThorpeParkMap extends Component {
 
@@ -32,10 +18,15 @@ class ThorpeParkMap extends Component {
         "ridetime": "01:00",
         "category": "rollercoaster",
         "minheight": "1.4m",
-        "minage": "8"
+        "minage": "8",
+        "video": "p3KGBjqIbfc"
       },
-      show: false
+      showModal: false,
     }
+  }
+
+  handleToggleModal() {
+    this.setState({ showModal: !this.state.showModal });
   }
 
   // componentDidMount() {
@@ -44,16 +35,11 @@ class ThorpeParkMap extends Component {
   //   .then(data => this.setState(data))
   // }
 
-  showModal = () => {
-    this.setState({show: true})
-  }
-
-  hideModal = () => {
-    this.setState({show: false})
-  }
 
   render() {
+    const { showModal } = this.state;
     return (
+
       <div className="containerForMap">
 
       {title}
@@ -65,7 +51,7 @@ class ThorpeParkMap extends Component {
           <div id="derrenBrown" className="ride"></div>
           <div id="stormSurge" className="ride"></div>
           <div id="saw" className="ride"></div>
-          <div id="stealth" className="ride" onClick={this.showModal}></div>
+          <div id="stealth" className="ride" onClick={() => this.handleToggleModal()}></div>
           <div id="flyingFish" className="ride"></div>
           <div id="rockyExpress" className="ride"></div>
           <div id="detonator" className="ride"></div>
@@ -74,7 +60,7 @@ class ThorpeParkMap extends Component {
           <div id="depthCharge" className="ride"></div>
           <div id="tidalWave" className="ride"></div>
           <div id="stormCup" className="ride"></div>
-          <div id="colossus" className="ride"></div>
+          <div id="colossus" className="ride" onClick={() => this.handleToggleModal()}></div>
           <div id="vortex" className="ride"></div>
           <div id="zodiak" className="ride"></div>
           <div id="rush" className="ride"></div>
@@ -87,15 +73,11 @@ class ThorpeParkMap extends Component {
           <div id="livingNightmare" className="ride"></div>
           <div id="lumber" className="ride"></div>
           <div id="timber" className="ride"></div>
-          <main>
-          <Modal feature={this.state.feature} show={this.state.show} handleClose={this.hideModal}></Modal>
-          <InfoBox feature={this.state.feature} />
-          </main>
-          <div id="attractionsFilter"><AttractionsFilter /></div>
-          <div id="facilitiesFilter"><FacilitiesFilter /></div>
-
         </div>
         <Link to='/'><Button class='back' name='back' /></Link>
+          {showModal &&
+            <InfoBox feature={this.state.feature} onCloseRequest={() => this.handleToggleModal()}>
+            </InfoBox>}
       </div>
     )
   }

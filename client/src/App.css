@@ -10,31 +10,45 @@ h1 {
 }
 
 .modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  height: 100%;
+  position: absolute;
+  background-color: red;
+  color: red;
+  top: 10px;
+  left: 10px;
+  width: min;
+  height: min;
+  padding-left: 20px;
+  padding-right: 20px;
+  animation: slide 2s ease;
   background: rgba(0, 0, 0, 0.6);
 }
 
-#buttonMenu button {
-  background-color: #DA70D6;
-  border: 5px solid black;
-  color: black;
-  margin: 5px;
-  padding: 10px 24px;
-  width: 100%;
+.closeButton: {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
 }
 
-.modal-main {
-  position:fixed;
-  background: white;
-  width: 80%;
-  height: auto;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+.modalOverlay {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  animation: slide 2s ease;
+}
+
+@keyframes slide {
+  from { left: -100px; }
+  to { left: 10px; }
 }
 
 .display-block {
