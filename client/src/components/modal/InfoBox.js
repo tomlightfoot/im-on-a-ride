@@ -13,13 +13,13 @@ class InfoBox extends Component {
     this.handleOutsideClick = this.handleOutsideClick.bind(this);
   }
 
-  // Add listeners immediately after the component is mounted.
+  // listeners for click or key press to exit modal
   componentDidMount() {
     window.addEventListener('keyup', this.handleKeyUp, false);
     document.addEventListener('click', this.handleOutsideClick, false);
   }
 
-  // Remove listeners immediately before a component is unmounted and destroyed.
+  // Remove listeners
   componentWillUnmount() {
     window.removeEventListener('keyup', this.handleKeyUp, false);
     document.removeEventListener('click', this.handleOutsideClick, false);
