@@ -14,6 +14,26 @@
   align-items: center;
 }
 
+#filters {
+  position: absolute;
+  display: block;
+  width: 500px;
+  bottom: 0px;
+  border: 3px solid #8AC007;
+}
+
+#attractionsFilter {
+    width: 50%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+#facilitiesFilter {
+    margin-left: 15%;
+    height: 200px;
+    background: white;
+}
+
 @media only screen and (max-width: 560px) {
   #map {
     background-image: url('.././images/turnPhone.png');

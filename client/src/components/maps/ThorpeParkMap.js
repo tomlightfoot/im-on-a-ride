@@ -91,8 +91,10 @@ class ThorpeParkMap extends Component {
           <Modal feature={this.state.feature} show={this.state.show} handleClose={this.hideModal}></Modal>
           <InfoBox feature={this.state.feature} />
           </main>
-          <div id="attractionsFilter"><AttractionsFilter /></div>
-          <div id="facilitiesFilter"><FacilitiesFilter /></div>
+          <div id="filters">
+            <div id="attractionsFilter"><AttractionsFilter /></div>
+            <div id="facilitiesFilter"><FacilitiesFilter /></div>
+          </div>
 
         </div>
         <Link to='/'><Button class='back' name='back' /></Link>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './styles/filter.css'
 
 class AttractionsFilter extends Component {
   constructor(props) {
@@ -44,27 +45,22 @@ class AttractionsFilter extends Component {
 
    render() {
      return (
-       <div>
-         <input type="checkbox"
-           checked={this.state.isCheckedRollercoaster}
-           onChange={this.toggleChangeRollercoaster}
-         />Rollercoaster
-         <input type="checkbox"
-           checked={this.state.isCheckedStanding}
-           onChange={this.toggleChangeStanding}
-         />Standing
-         <input type="checkbox"
-           checked={this.state.isCheckedWater}
-           onChange={this.toggleChangeWater}
-         />Water
-         <input type="checkbox"
-           checked={this.state.isCheckedFamily}
-           onChange={this.toggleChangeFamily}
-         />Family
-         <input type="checkbox"
-           checked={this.state.isCheckedExperience}
-           onChange={this.toggleChangeExperience}
-         />Experience
+      <div>
+        <label class="container" >Rollercoaster
+          <input type="checkbox" checked={this.state.isCheckedRollercoaster} onChange={this.toggleChangeRollercoaster}/>
+        </label>
+        <label class="container" >Standing
+          <input type="checkbox" checked={this.state.isCheckedStanding} onChange={this.toggleChangeStanding}/>
+        </label>
+        <label class="container" >Water
+          <input type="checkbox" checked={this.state.isCheckedWater} onChange={this.toggleChangeWater}/>
+        </label>
+        <label class="container" >Family
+          <input type="checkbox" checked={this.state.isCheckedFamily} onChange={this.toggleChangeFamily}/>
+        </label>
+        <label class="container" >Experience
+          <input type="checkbox" checked={this.state.isCheckedExperience} onChange={this.toggleChangeExperience}/>
+        </label>
       </div>
      );
    }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './styles/filter.css'
 
 class FacilitiesFilter extends Component {
   constructor(props) {
@@ -51,31 +52,25 @@ class FacilitiesFilter extends Component {
 
    render() {
      return (
-       <div>
-         <input type="checkbox"
-           checked={this.state.isCheckedToilets}
-           onChange={this.toggleChangeToilets}
-         />Toilets
-         <input type="checkbox"
-           checked={this.state.isCheckedLockers}
-           onChange={this.toggleChangeLockers}
-         />Lockers
-         <input type="checkbox"
-           checked={this.state.isCheckedGuestServices}
-           onChange={this.toggleChangeGuestServices}
-         />Guest Services
-         <input type="checkbox"
-           checked={this.state.isCheckedHealthCentre}
-           onChange={this.toggleChangeHealthCentre}
-         />Health Centre
-         <input type="checkbox"
-           checked={this.state.isCheckedKiosk}
-           onChange={this.toggleChangeKiosk}
-         />Kiosk
-         <input type="checkbox"
-           checked={this.state.isCheckedFood}
-           onChange={this.toggleChangeFood}
-         />Food
+      <div>
+        <label class="container" >Toilets
+          <input type="checkbox" checked={this.state.isCheckedToilets} onChange={this.toggleChangeToilets}/>
+        </label>
+        <label class="container" >Lockers
+          <input type="checkbox" checked={this.state.isCheckedLockers} onChange={this.toggleChangeLockers}/>
+        </label >
+        <label class="container">Guest Services
+          <input type="checkbox" checked={this.state.isCheckedGuestServices} onChange={this.toggleChangeGuestServices}/>
+        </label>
+        <label class="container" >Health Centre
+          <input type="checkbox" checked={this.state.isCheckedHealthCentre} onChange={this.toggleChangeHealthCentre}/>
+        </label>
+        <label class="container" >Kiosk
+          <input type="checkbox" checked={this.state.isCheckedKiosk} onChange={this.toggleChangeKiosk}/>
+        </label>
+        <label class="container" >Food
+          <input type="checkbox" checked={this.state.isCheckedFood} onChange={this.toggleChangeFood}/>
+        </label>
       </div>
      );
    }
