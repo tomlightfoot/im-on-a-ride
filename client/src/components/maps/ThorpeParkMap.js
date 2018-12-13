@@ -87,32 +87,32 @@ class ThorpeParkMap extends Component {
           <div id="livingNightmare" className="ride"></div>
           <div id="lumber" className="ride"></div>
           <div id="timber" className="ride"></div>
-          <div id="kfc" className="facility food"></div>
-          <div id="donut" className="facility food"></div>
-          <div id="burgerKing" className="facility food"></div>
-          <div id="sombrero" className="facility food"></div>
-          <div id="amityFish" className="facility food"></div>
-          <div id="infernoPizza" className="facility food"></div>
-          <div id="nitrogenie" className="facility food"></div>
-          <div id="amityKebab" className="facility food"></div>
-          <div id="beachShack" className="facility food"></div>
-          <div id="colossusSnack" className="facility food"></div>
-          <div id="toiletOne" className="facility toilet"></div>
-          <div id="toiletTwo" className="facility toilet"></div>
-          <div id="toiletThree" className="facility toilet"></div>
-          <div id="toiletFour" className="facility toilet"></div>
-          <div id="toiletFive" className="facility toilet"></div>
-          <div id="lockersOne" className="facility locker"></div>
-          <div id="lockersTwo" className="facility locker"></div>
-          <div id="lockersThree" className="facility locker"></div>
-          <div id="lockersFour" className="facility locker"></div>
-          <div id="guestServices" className="facility guestServices"></div>
-          <div id="healthCentre" className="facility healthCentre"></div>
-          <div id="gate" className="facility gate"></div>
-          <div id="sawKiosk" className="facility kiosk"></div>
-          <div id="colossusKiosk" className="facility kiosk"></div>
-          <div id="infernoKiosk" className="facility kiosk"></div>
-          <div id="swarmKiosk" className="facility kiosk"></div>
+          <div id="kfc" className="facility food">1</div>
+          <div id="donut" className="facility food">2</div>
+          <div id="burgerKing" className="facility food">3</div>
+          <div id="sombrero" className="facility food">4</div>
+          <div id="amityFish" className="facility food">5</div>
+          <div id="infernoPizza" className="facility food">6</div>
+          <div id="nitrogenie" className="facility food">7</div>
+          <div id="amityKebab" className="facility food">8</div>
+          <div id="beachShack" className="facility food">9</div>
+          <div id="colossusSnack" className="facility food">10</div>
+          <div id="toiletOne" className="facility toilet">11</div>
+          <div id="toiletTwo" className="facility toilet">12</div>
+          <div id="toiletThree" className="facility toilet">13</div>
+          <div id="toiletFour" className="facility toilet">14</div>
+          <div id="toiletFive" className="facility toilet">15</div>
+          <div id="lockersOne" className="facility locker">16</div>
+          <div id="lockersTwo" className="facility locker">17</div>
+          <div id="lockersThree" className="facility locker">18</div>
+          <div id="lockersFour" className="facility locker">19</div>
+          <div id="guestServices" className="facility guestServices">20</div>
+          <div id="healthCentre" className="facility healthCentre">21</div>
+          <div id="gate" className="facility gate">22</div>
+          <div id="sawKiosk" className="facility kiosk">23</div>
+          <div id="colossusKiosk" className="facility kiosk">24</div>
+          <div id="infernoKiosk" className="facility kiosk">25</div>
+          <div id="swarmKiosk" className="facility kiosk">26</div>
           <main>
           <Modal feature={this.state.feature} show={this.state.show} handleClose={this.hideModal}></Modal>
           <InfoBox feature={this.state.feature} />
