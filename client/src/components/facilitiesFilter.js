@@ -53,23 +53,60 @@ class FacilitiesFilter extends Component {
    render() {
      return (
       <div>
-        <label class="container" >Toilets
-          <input type="checkbox" checked={this.state.isCheckedToilets} onChange={this.toggleChangeToilets}/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <label class="container" >
+          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedToilets} onChange={this.toggleChangeToilets}/>
+          <span class="label__text">
+            <span class="label__check">
+              <i class="fa fa-check icon"></i>
+            </span>
+          </span>
+          Toilets
         </label>
-        <label class="container" >Lockers
-          <input type="checkbox" checked={this.state.isCheckedLockers} onChange={this.toggleChangeLockers}/>
-        </label >
-        <label class="container">Guest Services
-          <input type="checkbox" checked={this.state.isCheckedGuestServices} onChange={this.toggleChangeGuestServices}/>
+        <label class="container" >
+          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedLockers} onChange={this.toggleChangeLockers}/>
+          <span class="label__text">
+            <span class="label__check">
+              <i class="fa fa-check icon"></i>
+            </span>
+          </span>
+          Lockers
         </label>
-        <label class="container" >Health Centre
-          <input type="checkbox" checked={this.state.isCheckedHealthCentre} onChange={this.toggleChangeHealthCentre}/>
+        <label class="container">
+          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedGuestServices} onChange={this.toggleChangeGuestServices}/>
+          <span class="label__text">
+            <span class="label__check">
+              <i class="fa fa-check icon"></i>
+            </span>
+          </span>
+          Guest Services
         </label>
-        <label class="container" >Kiosk
-          <input type="checkbox" checked={this.state.isCheckedKiosk} onChange={this.toggleChangeKiosk}/>
+        <label class="container" >
+          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedHealthCentre} onChange={this.toggleChangeHealthCentre}/>
+          <span class="label__text">
+            <span class="label__check">
+              <i class="fa fa-check icon"></i>
+            </span>
+          </span>
+          Health Centre
         </label>
-        <label class="container" >Food
-          <input type="checkbox" checked={this.state.isCheckedFood} onChange={this.toggleChangeFood}/>
+        <label class="container" >
+          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedKiosk} onChange={this.toggleChangeKiosk}/>
+          <span class="label__text">
+            <span class="label__check">
+              <i class="fa fa-check icon"></i>
+            </span>
+          </span>
+          Kiosk
+        </label>
+        <label class="container" >
+          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedFood} onChange={this.toggleChangeFood}/>
+          <span class="label__text">
+            <span class="label__check">
+              <i class="fa fa-check icon"></i>
+            </span>
+          </span>
+          Food
         </label>
       </div>
      );
