@@ -52,7 +52,8 @@ class FacilitiesFilter extends Component {
 
    render() {
      return (
-      <div>
+      <div class="main">
+        <h5>Facilities</h5>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <label class="container" >
           <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedToilets} onChange={this.toggleChangeToilets}/>
