@@ -13,6 +13,8 @@ class AttractionsFilter extends Component {
      };
    }
 
+   // The below code could definitely be DRYer, will come back to refactor if have the time
+
    toggleChangeRollercoaster = () => {
      this.setState({
        isCheckedRollercoaster: !this.state.isCheckedRollercoaster,
@@ -26,24 +28,37 @@ class AttractionsFilter extends Component {
      this.setState({
        isCheckedStanding: !this.state.isCheckedStanding,
      });
+     fetch('/attractions')
+      .then(res => res.json())
+      .then(attractions => { this.props.callBackFromParent(attractions.filter(attraction => attraction.category === "standing ride").map(attraction => attraction.name)) })
    }
 
    toggleChangeWater = () => {
      this.setState({
        isCheckedWater: !this.state.isCheckedWater,
      });
+     fetch('/attractions')
+      .then(res => res.json())
+      .then(attractions => { this.props.callBackFromParent(attractions.filter(attraction => attraction.category === "water ride").map(attraction => attraction.name)) })
    }
 
    toggleChangeFamily = () => {
      this.setState({
        isCheckedFamily: !this.state.isCheckedFamily,
      });
+     fetch('/attractions')
+      .then(res => res.json())
+      .then(attractions => { this.props.callBackFromParent(attractions.filter(attraction => attraction.category === "family fun").map(attraction => attraction.name)) })
    }
 
    toggleChangeExperience = () => {
      this.setState({
        isCheckedExperience: !this.state.isCheckedExperience,
      });
+     fetch('/attractions')
+      .then(res => res.json())
+      .then(attractions => { this.props.callBackFromParent(attractions.filter(attraction => attraction.category === "experience ride").map(attraction => attraction.name)) })
+      console.log("hello");
    }
 
    render() {

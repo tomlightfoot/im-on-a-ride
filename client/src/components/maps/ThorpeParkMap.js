@@ -48,7 +48,9 @@ class ThorpeParkMap extends Component {
 
   filter = (data) => {
     data.forEach((ride) => {
+      console.log(ride);
       let x = this.refs[ride];
+      console.log(x);
       if (x.style.display !== "block") {
         x.style.display = "block";
       } else {
@@ -64,10 +66,10 @@ class ThorpeParkMap extends Component {
       {title}
         <div id='map'>
           <div ref="Swarm" id="swarm" className="ride"></div>
-          <div ref="RumbaRapids" id="rumbaRapids" className="ride"></div>
+          <div ref="Rumba Rapids" id="rumbaRapids" className="ride"></div>
           <div ref="Nemesis Inferno" id="nemesis" className="ride"></div>
-          <div ref="Celebrity" id="celebrity" className="ride"></div>
-          <div ref="Derren Brown" id="derrenBrown" className="ride"></div>
+          <div ref="I'm a Celebrity" id="celebrity" className="ride"></div>
+          <div ref="Derren Brown's Ghost Train" id="derrenBrown" className="ride"></div>
           <div ref="Storm Surge" id="stormSurge" className="ride"></div>
           <div ref="Saw" id="saw" className="ride"></div>
           <div ref="Stealth" id="stealth" className="ride" onClick={this.showModal}></div>
@@ -75,23 +77,23 @@ class ThorpeParkMap extends Component {
           <div ref="Rocky Express" id="rockyExpress" className="ride"></div>
           <div ref="Detonator" id="detonator" className="ride"></div>
           <div ref="Amity Beach" id="amityBeach" className="ride"></div>
-          <div ref="Wet" id="wet" className="ride"></div>
+          <div ref="Wet wet wet" id="wet" className="ride"></div>
           <div ref="Depth Charge" id="depthCharge" className="ride"></div>
           <div ref="Tidal Wave" id="tidalWave" className="ride"></div>
           <div ref="Storm Cup" id="stormCup" className="ride"></div>
           <div ref="Colossus" id="colossus" className="ride"></div>
           <div ref="Vortex" id="vortex" className="ride"></div>
-          <div ref="Zodiak" id="zodiak" className="ride"></div>
+          <div ref="Zodiac" id="zodiac" className="ride"></div>
           <div ref="Rush" id="rush" className="ride"></div>
           <div ref="Quantum" id="quantum" className="ride"></div>
           <div ref="Dome" id="dome" className="ride"></div>
-          <div ref="Samuri" id="samuri" className="ride"></div>
-          <div ref="Angry Birds" id="angryBirds" className="ride"></div>
-          <div ref="King Pig" id="kingPig" className="ride"></div>
+          <div ref="Samurai" id="samurai" className="ride"></div>
+          <div ref="Angry Birds 4D" id="angryBirds" className="ride"></div>
+          <div ref="King Pigs" id="kingPig" className="ride"></div>
           <div ref="Monkey" id="monkey" className="ride"></div>
           <div ref="Walking Dead" id="livingNightmare" className="ride"></div>
           <div ref="Lumber" id="lumber" className="ride"></div>
-          <div ref="Timber" id="timber" className="ride"></div>
+          <div ref="Timber Tug Boat" id="timber" className="ride"></div>
           <main>
           <Modal feature={this.state.feature} show={this.state.show} handleClose={this.hideModal}></Modal>
           <InfoBox feature={this.state.feature} />
@@ -102,7 +104,7 @@ class ThorpeParkMap extends Component {
           </div>
 
         </div>
-        <Link to='/'><Button class='back' name='back' /></Link>
+        <Link to='/'><Button className='back' name='back' /></Link>
       </div>
     )
   }
