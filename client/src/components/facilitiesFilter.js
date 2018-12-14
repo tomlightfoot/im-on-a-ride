@@ -52,59 +52,59 @@ class FacilitiesFilter extends Component {
 
    render() {
      return (
-      <div class="main">
+      <div className="main">
         <h5>Facilities</h5>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedToilets} onChange={this.toggleChangeToilets}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedToilets} onChange={this.toggleChangeToilets}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Toilets
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedLockers} onChange={this.toggleChangeLockers}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedLockers} onChange={this.toggleChangeLockers}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Lockers
         </label>
-        <label class="container">
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedGuestServices} onChange={this.toggleChangeGuestServices}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container">
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedGuestServices} onChange={this.toggleChangeGuestServices}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Guest Services
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedHealthCentre} onChange={this.toggleChangeHealthCentre}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedHealthCentre} onChange={this.toggleChangeHealthCentre}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Health Centre
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedKiosk} onChange={this.toggleChangeKiosk}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedKiosk} onChange={this.toggleChangeKiosk}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Kiosk
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedFood} onChange={this.toggleChangeFood}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedFood} onChange={this.toggleChangeFood}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Food

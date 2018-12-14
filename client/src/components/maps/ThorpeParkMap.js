@@ -14,17 +14,24 @@ class ThorpeParkMap extends Component {
   constructor() {
     super()
     this.state = {
-      feature: {
-        "name": "Stealth",
-        "thrill": "5",
-        "ridetime": "01:00",
-        "category": "rollercoaster",
-        "minheight": "1.4m",
-        "minage": "8",
-        "video": "p3KGBjqIbfc"
-      },
+      features: null,
+      feature: null,
       showModal: false,
     }
+  }
+
+  componentDidMount() {
+    fetch('/attractions')
+    .then(res => res.json())
+    .then(data => this.setState({ features: data}, () => console.log('Complete')))
+  }
+
+  toggleRideInfo(ride) {
+
+    let rideInfo = this.state.features.filter(feature => feature.name === ride)[0]
+    this.setState({ feature: rideInfo })
+    console.log(this.state.feature);
+    this.handleToggleModal()
   }
 
   handleToggleModal() {
@@ -41,9 +48,7 @@ class ThorpeParkMap extends Component {
 
   filter = (data) => {
     data.forEach((ride) => {
-      console.log(ride);
       let x = this.refs[ride];
-      console.log(x);
       if (x.style.display !== "block") {
         x.style.display = "block";
       } else {
@@ -59,35 +64,34 @@ class ThorpeParkMap extends Component {
     <div className="containerForMap">
     {title}
       <div id='map'>
-        <div ref="Swarm" id="swarm" className="ride"></div>
-        <div ref="Rumba Rapids" id="rumbaRapids" className="ride"></div>
-        <div ref="Nemesis Inferno" id="nemesis" className="ride"></div>
-        <div ref="I'm a Celebrity" id="celebrity" className="ride"></div>
-        <div ref="Derren Brown's Ghost Train" id="derrenBrown" className="ride"></div>
-        <div ref="Storm Surge" id="stormSurge" className="ride"></div>
-        <div ref="Saw" id="saw" className="ride"></div>
-        <div ref="Stealth" id="stealth" className="ride" onClick={() => this.handleToggleModal()}></div>
-        <div ref="Flying Fish" id="flyingFish" className="ride"></div>
-        <div ref="Rocky Express" id="rockyExpress" className="ride"></div>
-        <div ref="Detonator" id="detonator" className="ride"></div>
-        <div ref="Amity Beach" id="amityBeach" className="ride"></div>
-        <div ref="Wet wet wet" id="wet" className="ride"></div>
-        <div ref="Depth Charge" id="depthCharge" className="ride"></div>
-        <div ref="Tidal Wave" id="tidalWave" className="ride"></div>
-        <div ref="Storm Cup" id="stormCup" className="ride"></div>R
-        <div ref="Colossus" id="colossus" className="ride" onClick={() => this.handleToggleModal()}></div>
-        <div ref="Vortex" id="vortex" className="ride"></div>
-        <div ref="Zodiac" id="zodiac" className="ride"></div>
-        <div ref="Rush" id="rush" className="ride"></div>
-        <div ref="Quantum" id="quantum" className="ride"></div>
-        <div ref="Dome" id="dome" className="ride"></div>
-        <div ref="Samurai" id="samurai" className="ride"></div>
-        <div ref="Angry Birds 4D" id="angryBirds" className="ride"></div>
-        <div ref="King Pigs" id="kingPig" className="ride"></div>
-        <div ref="Monkey" id="monkey" className="ride"></div>
-        <div ref="Walking Dead" id="livingNightmare" className="ride"></div>
-        <div ref="Lumber" id="lumber" className="ride"></div>
-        <div ref="Timber Tug Boat" id="timber" className="ride"></div>
+        <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}></div>
+        <div ref="Rumba Rapids" id="rumbaRapids" className="ride" onClick={() => this.toggleRideInfo("Rumba Rapids")}></div>
+        <div ref="Nemesis Inferno" id="nemesis" className="ride" onClick={() => this.toggleRideInfo("Nemesis Inferno")}></div>
+        <div ref="I'm a Celebrity" id="celebrity" className="ride" onClick={() => this.toggleRideInfo("I'm a Celebrity")}></div>
+        <div ref="Derren Brown's Ghost Train" id="derrenBrown" className="ride" onClick={() => this.toggleRideInfo("Derren Brown's Ghost Train")}></div>
+        <div ref="Storm Surge" id="stormSurge" className="ride" onClick={() => this.toggleRideInfo("Storm Surge")}></div>
+        <div ref="Saw" id="saw" className="ride" onClick={() => this.toggleRideInfo("Saw")}></div>
+        <div ref="Stealth" id="stealth" className="ride" onClick={() => this.toggleRideInfo("Stealth")}></div>
+        <div ref="Flying Fish" id="flyingFish" className="ride" onClick={() => this.toggleRideInfo("Flying Fish")}></div>
+        <div ref="Rocky Express" id="rockyExpress" className="ride" onClick={() => this.toggleRideInfo("Rocky Express")}></div>
+        <div ref="Detonator" id="detonator" className="ride" onClick={() => this.toggleRideInfo("Detonator")}></div>
+        <div ref="Amity Beach" id="amityBeach" className="ride" onClick={() => this.toggleRideInfo("Amity Beach")}></div>
+        <div ref="Wet wet wet" id="wet" className="ride" onClick={() => this.toggleRideInfo("Wet wet wet")}></div>
+        <div ref="Depth Charge" id="depthCharge" className="ride" onClick={() => this.toggleRideInfo("Depth Charge")}></div>
+        <div ref="Tidal Wave" id="tidalWave" className="ride" onClick={() => this.toggleRideInfo("Tidal Wave")}></div>
+        <div ref="Storm Cup" id="stormCup" className="ride" onClick={() => this.toggleRideInfo("Storm Cup")}></div>
+        <div ref="Colossus" id="colossus" className="ride" onClick={() => this.toggleRideInfo("Colossus")}></div>
+        <div ref="Vortex" id="vortex" className="ride" onClick={() => this.toggleRideInfo("Vortex")}></div>
+        <div ref="Zodiac" id="zodiac" className="ride" onClick={() => this.toggleRideInfo("Zodiac")}></div>
+        <div ref="Rush" id="rush" className="ride" onClick={() => this.toggleRideInfo("Rush")}></div>
+        <div ref="Quantum" id="quantum" className="ride" onClick={() => this.toggleRideInfo("Quantum")}></div>
+        <div ref="Samurai" id="samurai" className="ride" onClick={() => this.toggleRideInfo("Samurai")}></div>
+        <div ref="Angry Birds 4D" id="angryBirds" className="ride" onClick={() => this.toggleRideInfo("Angry Birds 4D")}></div>
+        <div ref="King Pigs" id="kingPig" className="ride" onClick={() => this.toggleRideInfo("King Pigs")}></div>
+        <div ref="Monkey" id="monkey" className="ride" onClick={() => this.toggleRideInfo("Monkey")}></div>
+        <div ref="Walking Dead" id="livingNightmare" className="ride" onClick={() => this.toggleRideInfo("Walking Dead")}></div>
+        <div ref="Lumber" id="lumber" className="ride" onClick={() => this.toggleRideInfo("Lumber")}></div>
+        <div ref="Timber Tug Boat" id="timber" className="ride" onClick={() => this.toggleRideInfo("Timber Tug Boat")}></div>
         <div id="kfc" className="facility food"></div>
         <div id="donut" className="facility food"></div>
         <div id="burgerKing" className="facility food"></div>

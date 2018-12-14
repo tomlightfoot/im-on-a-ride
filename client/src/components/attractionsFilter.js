@@ -63,50 +63,50 @@ class AttractionsFilter extends Component {
 
    render() {
      return (
-      <div class ="main">
+      <div className ="main">
         <h5>Attractions</h5>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedRollercoaster} onChange={this.toggleChangeRollercoaster}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedRollercoaster} onChange={this.toggleChangeRollercoaster}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Rollercoaster
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedStanding} onChange={this.toggleChangeStanding}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedStanding} onChange={this.toggleChangeStanding}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Standing Ride
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedWater} onChange={this.toggleChangeWater}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedWater} onChange={this.toggleChangeWater}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Water Ride
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedFamily} onChange={this.toggleChangeFamily}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedFamily} onChange={this.toggleChangeFamily}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Family Fun
         </label>
-        <label class="container" >
-          <input class="label__checkbox" type="checkbox" checked={this.state.isCheckedExperience} onChange={this.toggleChangeExperience}/>
-          <span class="label__text">
-            <span class="label__check">
-              <i class="fa fa-check icon"></i>
+        <label className="container" >
+          <input className="label__checkbox" type="checkbox" checked={this.state.isCheckedExperience} onChange={this.toggleChangeExperience}/>
+          <span className="label__text">
+            <span className="label__check">
+              <i className="fa fa-check icon"></i>
             </span>
           </span>
           Experience
