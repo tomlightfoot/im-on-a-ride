@@ -1,0 +1,77 @@
+/*
+export default {
+  // Prevent page scrolling when modal is open.
+  @global: {
+    body: { overflow: hidden },
+  }, */
+/*
+  // The modal wrapper: absolute positioning,
+  // 100% of the browser window height and width. */
+  .modalOverlay {
+    display: block;
+    width: min;
+    height: min;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 5px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    animation: slide 2s ease;
+  }
+
+  /* // Fade-in open animation */
+
+@keyframes slide {
+  from { left: -300px; }
+  to { left: 10px; }
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+  /* // The modal window: a empty div, vertical and horizontal cenetered. */
+  .modal: {
+    color: red;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #aaa;
+    box-shadow: [0, 0, 0.625rem, rgba(0, 0, 0, 0.2)];
+  }
+
+  h4 {
+    text-align:center;
+  }
+
+  /* // The close button: absolute positioning on top left of the */
+  /* // browser window, white background square with a gray X. */
+  .closeButton: {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: [0, 0, 0.625rem, rgba(0, 0, 0, 0.2)];
+  }
