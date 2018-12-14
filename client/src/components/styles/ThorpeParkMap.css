@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.ride {
+.ride, .facility {
   display: none;
 }
 
@@ -277,16 +277,6 @@
     border: 2px solid black;
     margin-left: 382px;
     margin-top: 143px;
-    position: absolute;
-  }
-
-  #dome {
-    width: 60px;
-    height: 60px;
-    border-radius: 90px;
-    border: 2px solid black;
-    margin-left: 362px;
-    margin-top: 78px;
     position: absolute;
   }
 
@@ -878,16 +868,6 @@
     position: absolute;
   }
 
-  #dome {
-    width: 80px;
-    height: 80px;
-    border-radius: 90px;
-    border: 2px solid black;
-    margin-left: 498px;
-    margin-top: 110px;
-    position: absolute;
-  }
-
   #samuri {
     width: 26px;
     height: 26px;
@@ -1473,16 +1453,6 @@
     border: 2px solid black;
     margin-left: 818px;
     margin-top: 308px;
-    position: absolute;
-  }
-
-  #dome {
-    width: 120px;
-    height: 120px;
-    border-radius: 90px;
-    border: 2px solid black;
-    margin-left: 783px;
-    margin-top: 178px;
     position: absolute;
   }
 
