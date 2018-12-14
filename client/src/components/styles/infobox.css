@@ -8,6 +8,7 @@
   top:50%;
   left:50%;
   background: rgba(0, 0, 0, 0.3);
+  display: none;
 
   .modal-main {
     position:fixed;
