@@ -80,7 +80,7 @@ class ThorpeParkMap extends Component {
           <div ref="Wet wet wet" id="wet" className="ride"></div>
           <div ref="Depth Charge" id="depthCharge" className="ride"></div>
           <div ref="Tidal Wave" id="tidalWave" className="ride"></div>
-          <div ref="Storm Cup" id="stormCup" className="ride"></div>
+          <div ref="Storm Cup" id="stormCup" className="ride"></div>R
           <div ref="Colossus" id="colossus" className="ride"></div>
           <div ref="Vortex" id="vortex" className="ride"></div>
           <div ref="Zodiac" id="zodiac" className="ride"></div>
