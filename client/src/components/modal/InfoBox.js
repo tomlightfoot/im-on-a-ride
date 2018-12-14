@@ -57,13 +57,13 @@ class InfoBox extends Component {
       onCloseRequest,
       children
     } = this.props;
-
-    return (
+if(this.props.feature.category === "rollercoaster" || "standing ride" || "water ride" || "family fun" || "experience ride" )
+    {return (
       <div className='modal' ref={node => (this.modal = node)}>
 
           <div className='modalContent'>
           {children}
-  
+
         <button
           type='button'
           className='closeButton' onClick={onCloseRequest}>&times;</button>
@@ -78,7 +78,20 @@ class InfoBox extends Component {
         <Video feature={this.props.feature.video}/>
 
       </div>
-    );
+    )} else {
+      return (
+        <div className='modal' ref={node => (this.modal = node)}>
+            <div className='modalContent'>
+            {children}
+          <button
+            type='button'
+            className='closeButton' onClick={onCloseRequest}>&times;</button>
+        </div>
+        <h4>{this.props.feature.name}</h4>
+          <ul>Thrill Rating = {this.props.feature.type}</ul>
+        </div>
+      )
+    }
   }
 }
 
