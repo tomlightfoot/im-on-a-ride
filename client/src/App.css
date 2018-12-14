@@ -11,9 +11,8 @@ h1 {
 
 .modal {
   position: absolute;
-  background-color: red;
   color: red;
-  top: 10px;
+  top: 25%;
   left: 10px;
   width: min;
   height: min;
@@ -23,38 +22,34 @@ h1 {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.closeButton: {
-  position: fixed;
+.modalOverlay {
+  position: absolute;
+  width: 1px;
+  margin: 0;
+  padding: 0;
   top: 0;
   left: 0;
+  bottom: 0;
+  opacity: 1;
+  animation: slide 2s ease;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.closeButton: {
+  position: absolute;
   background: #fff;
   width: 2.5rem;
   height: 2.5rem;
+  margin-top: 40%;
   padding: 0;
   border: 0;
   cursor: pointer;
   outline: 0;
 }
 
-.modalOverlay {
-  position: absolute;
-  width: 20px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-  animation: slide 2s ease;
-}
+
 
 @keyframes slide {
-  from { left: -100px; }
+  from { left: -300px; }
   to { left: 10px; }
-}
-
-.display-block {
-  display: block;
-}
-
-.display-none {
-  display: none;
 }

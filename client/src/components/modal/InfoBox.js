@@ -59,25 +59,24 @@ class InfoBox extends Component {
     } = this.props;
 
     return (
-      <div className='modal'>
-        <div
-          className='modalOverlay'
-          ref={node => (this.modal = node)}
-          >
+      <div className='modal' ref={node => (this.modal = node)}>
+
           <div className='modalContent'>
           {children}
-          <button
-            type='button'
-            className='closeButton' onClick={onCloseRequest}>&times;</button>
-        </div>
-        </div>
+  
+        <button
+          type='button'
+          className='closeButton' onClick={onCloseRequest}>&times;</button>
+      </div>
       <h4>{this.props.feature.name}</h4>
+
         <ul>Thrill Rating = {this.props.feature.thrill}</ul>
         <ul>Ridetime = {this.props.feature.ridetime}</ul>
         <ul>Category = {this.props.feature.category}</ul>
         <ul>Minimum Height = {this.props.feature.minheight}</ul>
         <ul>Minimum Age = {this.props.feature.minage}</ul>
         <Video feature={this.props.feature.video}/>
+
       </div>
     );
   }
