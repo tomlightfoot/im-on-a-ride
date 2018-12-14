@@ -94,6 +94,32 @@ class ThorpeParkMap extends Component {
           <div ref="Walking Dead" id="livingNightmare" className="ride"></div>
           <div ref="Lumber" id="lumber" className="ride"></div>
           <div ref="Timber Tug Boat" id="timber" className="ride"></div>
+          <div id="kfc" className="facility food"></div>
+          <div id="donut" className="facility food"></div>
+          <div id="burgerKing" className="facility food"></div>
+          <div id="sombrero" className="facility food"></div>
+          <div id="amityFish" className="facility food"></div>
+          <div id="infernoPizza" className="facility food"></div>
+          <div id="nitrogenie" className="facility food"></div>
+          <div id="amityKebab" className="facility food"></div>
+          <div id="beachShack" className="facility food"></div>
+          <div id="colossusSnack" className="facility food"></div>
+          <div id="toiletOne" className="facility toilet"></div>
+          <div id="toiletTwo" className="facility toilet"></div>
+          <div id="toiletThree" className="facility toilet"></div>
+          <div id="toiletFour" className="facility toilet"></div>
+          <div id="toiletFive" className="facility toilet"></div>
+          <div id="lockersOne" className="facility locker"></div>
+          <div id="lockersTwo" className="facility locker"></div>
+          <div id="lockersThree" className="facility locker"></div>
+          <div id="lockersFour" className="facility locker"></div>
+          <div id="guestServices" className="facility guestServices"></div>
+          <div id="healthCentre" className="facility healthCentre"></div>
+          <div id="gate" className="facility gate"></div>
+          <div id="sawKiosk" className="facility kiosk"></div>
+          <div id="colossusKiosk" className="facility kiosk"></div>
+          <div id="infernoKiosk" className="facility kiosk"></div>
+          <div id="swarmKiosk" className="facility kiosk"></div>
           <main>
           <Modal feature={this.state.feature} show={this.state.show} handleClose={this.hideModal}></Modal>
           <InfoBox feature={this.state.feature} />
