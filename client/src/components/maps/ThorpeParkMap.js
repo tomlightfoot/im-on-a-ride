@@ -79,85 +79,85 @@ class ThorpeParkMap extends Component {
       <div id='map'>
         <div id='attractionsAndFacilities'>
           <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}>
-            <img src={require('.././images/swarm.jpg')} />
+            <img src={require('.././images/swarm.jpg')} alt="Image for Swarm" />
           </div>
           <div ref="Rumba Rapids" id="rumbaRapids" className="ride" onClick={() => this.toggleRideInfo("Rumba Rapids")}>
-            <img src={require('.././images/rapids.png')} />
+            <img src={require('.././images/rapids.png')} alt="Image for Rumba Rapids" />
           </div>
           <div ref="Nemesis Inferno" id="nemesis" className="ride" onClick={() => this.toggleRideInfo("Nemesis Inferno")}>
-            <img src={require('.././images/nemesis.png')} />
+            <img src={require('.././images/nemesis.png')} alt="Image for Nemesis Inferno" />
           </div>
           <div ref="I'm a Celebrity" id="celebrity" className="ride" onClick={() => this.toggleRideInfo("I'm a Celebrity")}>
-            <img src={require('.././images/im_a_celeb.jpg')} />
+            <img src={require('.././images/im_a_celeb.jpg')} alt="Image for I'm a Celebrity" />
           </div>
           <div ref="Derren Brown's Ghost Train" id="derrenBrown" className="ride" onClick={() => this.toggleRideInfo("Derren Brown's Ghost Train")}>
-            <img src={require('.././images/derron_brown.jpg')} />
+            <img src={require('.././images/derron_brown.jpg')} alt="Image for Derren Brown's Ghost Train" />
           </div>
           <div ref="Storm Surge" id="stormSurge" className="ride" onClick={() => this.toggleRideInfo("Storm Surge")}>
-            <img src={require('.././images/storm_surge.jpg')} />
+            <img src={require('.././images/storm_surge.jpg')} alt="Image for Storm Surge" />
           </div>
           <div ref="Saw" id="saw" className="ride" onClick={() => this.toggleRideInfo("Saw")}>
-            <img src={require('.././images/saw.png')} />
+            <img src={require('.././images/saw.png')} alt="Image for Saw" />
           </div>
           <div ref="Stealth" id="stealth" className="ride" onClick={() => this.toggleRideInfo("Stealth")}>
-            <img src={require('.././images/stealth.jpg')} border-radius="64"></img>
+            <img src={require('.././images/stealth.jpg')} alt="Image for Stealth" ></img>
           </div>
           <div ref="Flying Fish" id="flyingFish" className="ride" onClick={() => this.toggleRideInfo("Flying Fish")}>
-            <img src={require('.././images/flying_fish.jpg')} />
+            <img src={require('.././images/flying_fish.jpg')} alt="Image for Flying Fish" />
           </div>
           <div ref="Rocky Express" id="rockyExpress" className="ride" onClick={() => this.toggleRideInfo("Rocky Express")}>
-            <img src={require('.././images/rocky_express.jpg')} />
+            <img src={require('.././images/rocky_express.jpg')} alt="Image for Rocky Express" />
           </div>
           <div ref="Detonator" id="detonator" className="ride" onClick={() => this.toggleRideInfo("Detonator")}>
-            <img src={require('.././images/detonator.jpg')} />
+            <img src={require('.././images/detonator.jpg')} alt="Image for Detonator" />
           </div>
           <div ref="Amity Beach" id="amityBeach" className="ride" onClick={() => this.toggleRideInfo("Amity Beach")}>
-            <img src={require('.././images/amity_beach.jpg')} />
+            <img src={require('.././images/amity_beach.jpg')} alt="Image for Amity Beach" />
           </div>
           <div ref="Wet wet wet" id="wet" className="ride" onClick={() => this.toggleRideInfo("Wet wet wet")}>
-            <img src={require('.././images/wet_wet_wet.jpg')} />
+            <img src={require('.././images/wet_wet_wet.jpg')} alt="Image for Wet wet wet" />
           </div>
           <div ref="Depth Charge" id="depthCharge" className="ride" onClick={() => this.toggleRideInfo("Depth Charge")}>
-            <img src={require('.././images/depth_charge.jpg')} />
+            <img src={require('.././images/depth_charge.jpg')} alt="Image for Depth Charge" />
           </div>
           <div ref="Tidal Wave" id="tidalWave" className="ride" onClick={() => this.toggleRideInfo("Tidal Wave")}>
-            <img src={require('.././images/tidal_wave.jpg')} />
+            <img src={require('.././images/tidal_wave.jpg')} alt="Image for Tidal Wave" />
           </div>
           <div ref="Storm Cup" id="stormCup" className="ride" onClick={() => this.toggleRideInfo("Storm Cup")}>
-            <img src={require('.././images/storm_surge.jpg')} />
+            <img src={require('.././images/storm_surge.jpg')} alt="Image for Storm Cup" />
           </div>
           <div ref="Colossus" id="colossus" className="ride" onClick={() => this.toggleRideInfo("Colossus")}>
-            <img src={require('.././images/colossus.jpg')} />
+            <img src={require('.././images/colossus.jpg')} alt="Image for Colossus" />
           </div>
           <div ref="Vortex" id="vortex" className="ride" onClick={() => this.toggleRideInfo("Vortex")}>
-            <img src={require('.././images/vortex.jpg')} border-radius="64"></img>
+            <img src={require('.././images/vortex.jpg')} alt="Image for Vortex" />
           </div>
           <div ref="Zodiac" id="zodiac" className="ride" onClick={() => this.toggleRideInfo("Zodiac")}>
-            <img src={require('.././images/zodiac.jpg')} />
+            <img src={require('.././images/zodiac.jpg')} alt="Image for Zodiac" />
           </div>
           <div ref="Rush" id="rush" className="ride" onClick={() => this.toggleRideInfo("Rush")}>
-            <img src={require('.././images/rush.jpg')} />
+            <img src={require('.././images/rush.jpg')} alt="Image for Rush" />
           </div>
           <div ref="Quantum" id="quantum" className="ride" onClick={() => this.toggleRideInfo("Quantum")}>
-            <img src={require('.././images/quantum.jpg')} />
+            <img src={require('.././images/quantum.jpg')} alt="Image for Quantum" />
           </div>
           <div ref="Samurai" id="samurai" className="ride" onClick={() => this.toggleRideInfo("Samurai")}>
-            <img src={require('.././images/samurai.jpg')} />
+            <img src={require('.././images/samurai.jpg')} alt="Image for Samurai" />
           </div>
           <div ref="Angry Birds 4D" id="angryBirds" className="ride" onClick={() => this.toggleRideInfo("Angry Birds 4D")}>
-            <img src={require('.././images/angry_birds.jpg')} />
+            <img src={require('.././images/angry_birds.jpg')} alt="Image for Angry Birds 4D" />
           </div>
           <div ref="King Pigs" id="kingPig" className="ride" onClick={() => this.toggleRideInfo("King Pigs")}>
-            <img src={require('.././images/king_pig.png')} />
+            <img src={require('.././images/king_pig.png')} alt="Image for King Pigs" />
           </div>
           <div ref="Monkey" id="monkey" className="ride" onClick={() => this.toggleRideInfo("Monkey")}>
-            <img src={require('.././images/monkey.jpg')} />
+            <img src={require('.././images/monkey.jpg')} alt="Image for Monkey" />
           </div>
           <div ref="Walking Dead" id="livingNightmare" className="ride" onClick={() => this.toggleRideInfo("Walking Dead")}>
-            <img src={require('.././images/walking_dead.jpg')} />
+            <img src={require('.././images/walking_dead.jpg')} alt="Image for Walking Dead" />
           </div>
           <div ref="Lumber" id="lumber" className="ride" onClick={() => this.toggleRideInfo("Lumber")}>
-            <img src={require('.././images/timber.jpg')} />
+            <img src={require('.././images/timber.jpg')} alt="Image for Lumber" />
           </div>
           <div ref="Timber Tug Boat" id="timber" className="ride" onClick={() => this.toggleRideInfo("Timber Tug Boat")}></div>
           <div ref="5c0e7976fb6fc04dd6e95687" id="kfc" className="facility"></div>
