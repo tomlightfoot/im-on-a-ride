@@ -10,14 +10,16 @@ import LegoMap from './components/maps/legomap'
 class MyMenu extends Component {
   render() {
     return (
-      <div>
+      <div className='menupage'>
         <div id='title'>
           {title}
         </div>
+        <div className='menubtnlst'>
         <Link to='/thorpe/map'><Button name='ThorpePark'></Button></Link>
         <Link to='/alton/map'><Button name='Alton'></Button></Link>
         <Link to='/chess/map'><Button name='Chessington'></Button></Link>
         <Link to='/lego/map'><Button name='Legoland'></Button></Link>
+        </div>
       </div>
     )
   }

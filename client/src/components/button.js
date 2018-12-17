@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import '.././App.css'
 
 
 class Button extends Component {
   render() {
     return (
-      <button type='submit'>{this.props.name}</button>
+      <button className='menubtn' type='submit'>{this.props.name}</button>
     );
   }
 }
