@@ -83,7 +83,6 @@
     width: 150px;
     height: 55px;
     border-radius: 64px;
-    border: 2px solid black;
     margin-top: 35px;
     margin-left: 140px;
     position: absolute;
@@ -93,7 +92,6 @@
     width: 110px;
     height: 110px;
     border-radius: 74px;
-    border: 2px solid black;
     margin-left: 50px;
     margin-top: 140px;
     position: absolute;
@@ -103,7 +101,6 @@
     width: 70px;
     height: 35px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 170px;
     margin-top: 240px;
     position: absolute;
@@ -114,7 +111,6 @@
     width: 50px;
     height: 25px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 208px;
     margin-top: 280px;
     position: absolute;
@@ -125,7 +121,6 @@
     width: 15px;
     height: 66px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 291px;
     margin-top: 235px;
     position: absolute;
@@ -136,7 +131,6 @@
     width: 15px;
     height: 100px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 330px;
     margin-top: 155px;
     position: absolute;
@@ -147,7 +141,6 @@
     width: 48px;
     height: 65px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 390px;
     margin-top: 325px;
     position: absolute;
@@ -158,7 +151,6 @@
     width: 125px;
     height: 30px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 126px;
     margin-top: 118px;
     position: absolute;
@@ -169,7 +161,6 @@
     width: 35px;
     height: 25px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 273px;
     margin-top: 89px;
     position: absolute;
@@ -180,7 +171,6 @@
     width: 10px;
     height: 10px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 331px;
     margin-top: 382px;
     position: absolute;
@@ -190,7 +180,6 @@
     width: 17px;
     height: 17px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 217px;
     margin-top: 217px;
     position: absolute;
@@ -200,7 +189,6 @@
     width: 76px;
     height: 25px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 294px;
     margin-top: 122px;
     position: absolute;
@@ -211,7 +199,6 @@
     width: 30px;
     height: 16px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 307px;
     margin-top: 90px;
     position: absolute;
@@ -222,7 +209,6 @@
     width: 68px;
     height: 10px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 308px;
     margin-top: 101px;
     position: absolute;
@@ -233,7 +219,6 @@
     width: 128px;
     height: 23px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 195px;
     margin-top: 138px;
     position: absolute;
@@ -244,7 +229,6 @@
     width: 20px;
     height: 20px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 172px;
     margin-top: 169px;
     position: absolute;
@@ -254,7 +238,6 @@
     width: 165px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 288px;
     margin-top: 250px;
     position: absolute;
@@ -265,7 +248,6 @@
     width: 20px;
     height: 20px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 418px;
     margin-top: 132px;
     position: absolute;
@@ -275,7 +257,6 @@
     width: 20px;
     height: 20px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 405px;
     margin-top: 160px;
     position: absolute;
@@ -285,7 +266,6 @@
     width: 08px;
     height: 20px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 384px;
     margin-top: 166px;
     position: absolute;
@@ -295,17 +275,15 @@
     width: 15px;
     height: 15px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 382px;
     margin-top: 143px;
     position: absolute;
   }
-
+  
   #samuri {
     width: 20px;
     height: 20px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 366px;
     margin-top: 346px;
     position: absolute;
@@ -315,7 +293,6 @@
     width: 23px;
     height: 10px;
     border-radius: 10px;
-    border: 2px solid black;
     margin-left: 190px;
     margin-top: 198px;
     position: absolute;
@@ -326,7 +303,6 @@
     width: 15px;
     height: 10px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 211px;
     margin-top: 160px;
     position: absolute;
@@ -337,7 +313,6 @@
     width: 20px;
     height: 10px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 238px;
     margin-top: 275px;
     position: absolute;
@@ -348,7 +323,6 @@
     width: 35px;
     height: 55px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 313px;
     margin-top: 243px;
     position: absolute;
@@ -359,7 +333,6 @@
     width: 10px;
     height: 5px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 310px;
     margin-top: 376px;
     position: absolute;
@@ -370,7 +343,6 @@
     width: 27px;
     height: 10px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 305px;
     margin-top: 395px;
     position: absolute;
@@ -381,7 +353,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 248px;
     margin-top: 208px;
     position: absolute;
@@ -391,7 +362,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 260px;
     margin-top: 218px;
     position: absolute;
@@ -401,7 +371,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 173px;
     margin-top: 200px;
     position: absolute;
@@ -411,7 +380,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 188px;
     margin-top: 208px;
     position: absolute;
@@ -421,7 +389,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 190px;
     margin-top: 148px;
     position: absolute;
@@ -431,7 +398,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 157px;
       margin-top: 216px;
       position: absolute;
@@ -441,7 +408,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 250px;
       margin-top: 256px;
       position: absolute;
@@ -451,7 +418,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 317px;
       margin-top: 145px;
       position: absolute;
@@ -461,7 +428,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 296px;
       margin-top: 116px;
       position: absolute;
@@ -471,7 +438,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 335px;
       margin-top: 330px;
       position: absolute;
@@ -481,7 +448,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 229px;
       margin-top: 40px;
       position: absolute;
@@ -491,7 +458,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 170px;
       margin-top: 223px;
       position: absolute;
@@ -501,7 +468,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 300px;
       margin-top: 344px;
       position: absolute;
@@ -511,7 +478,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 305px;
       margin-top: 213px;
       position: absolute;
@@ -521,7 +488,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 390px;
       margin-top: 115px;
       position: absolute;
@@ -531,7 +498,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 395px;
       margin-top: 125px;
       position: absolute;
@@ -541,7 +508,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 300px;
       margin-top: 132px;
       position: absolute;
@@ -551,7 +518,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 410px;
       margin-top: 330px;
       position: absolute;
@@ -561,7 +528,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 313px;
       margin-top: 201px;
       position: absolute;
@@ -571,7 +538,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 364px;
       margin-top: 115px;
       position: absolute;
@@ -581,7 +548,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 359px;
       margin-top: 106px;
       position: absolute;
@@ -591,7 +558,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 403px;
       margin-top: 320px;
       position: absolute;
@@ -601,7 +568,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 360px;
       margin-top: 240px;
       position: absolute;
@@ -611,7 +578,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 215px;
       margin-top: 293px;
       position: absolute;
@@ -621,7 +588,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 203px;
       margin-top: 60px;
       position: absolute;
@@ -631,7 +598,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 495px;
       margin-top: 72px;
       position: absolute;
@@ -676,7 +643,6 @@
     width: 200px;
     height: 90px;
     border-radius: 64px;
-    border: 2px solid black;
     margin-top: 40px;
     margin-left: 190px;
     position: absolute;
@@ -686,7 +652,6 @@
     width: 150px;
     height: 150px;
     border-radius: 74px;
-    border: 2px solid black;
     margin-left: 70px;
     margin-top: 190px;
     position: absolute;
@@ -696,7 +661,6 @@
     width: 105px;
     height: 70px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 223px;
     margin-top: 325px;
     position: absolute;
@@ -707,7 +671,6 @@
     width: 60px;
     height: 30px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 288px;
     margin-top: 383px;
     position: absolute;
@@ -718,7 +681,6 @@
     width: 20px;
     height: 75px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 403px;
     margin-top: 325px;
     position: absolute;
@@ -729,7 +691,6 @@
     width: 30px;
     height: 140px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 448px;
     margin-top: 215px;
     position: absolute;
@@ -740,7 +701,6 @@
     width: 68px;
     height: 85px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 538px;
     margin-top: 445px;
     position: absolute;
@@ -750,7 +710,6 @@
     width: 175px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 168px;
     margin-top: 165px;
     position: absolute;
@@ -761,7 +720,6 @@
     width: 55px;
     height: 30px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 372px;
     margin-top: 125px;
     position: absolute;
@@ -772,7 +730,6 @@
     width: 13px;
     height: 13px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 454px;
     margin-top: 524px;
     position: absolute;
@@ -782,7 +739,6 @@
     width: 17px;
     height: 17px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 300px;
     margin-top: 300px;
     position: absolute;
@@ -792,7 +748,6 @@
     width: 90px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 422px;
     margin-top: 168px;
     position: absolute;
@@ -803,7 +758,6 @@
     width: 38px;
     height: 24px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 426px;
     margin-top: 123px;
     position: absolute;
@@ -814,7 +768,6 @@
     width: 92px;
     height: 13px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 422px;
     margin-top: 140px;
     position: absolute;
@@ -825,7 +778,6 @@
     width: 158px;
     height: 33px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 275px;
     margin-top: 190px;
     position: absolute;
@@ -836,7 +788,6 @@
     width: 25px;
     height: 25px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 238px;
     margin-top: 234px;
     position: absolute;
@@ -846,7 +797,6 @@
     width: 230px;
     height: 60px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 388px;
     margin-top: 346px;
     position: absolute;
@@ -857,7 +807,6 @@
     width: 30px;
     height: 30px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 570px;
     margin-top: 185px;
     position: absolute;
@@ -867,7 +816,6 @@
     width: 25px;
     height: 25px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 556px;
     margin-top: 221px;
     position: absolute;
@@ -877,7 +825,6 @@
     width: 10px;
     height: 35px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 525px;
     margin-top: 226px;
     position: absolute;
@@ -887,17 +834,15 @@
     width: 18px;
     height: 18px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 524px;
     margin-top: 197px;
     position: absolute;
   }
-
+  
   #samuri {
     width: 26px;
     height: 26px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 503px;
     margin-top: 475px;
     position: absolute;
@@ -907,7 +852,6 @@
     width: 36px;
     height: 20px;
     border-radius: 10px;
-    border: 2px solid black;
     margin-left: 258px;
     margin-top: 265px;
     position: absolute;
@@ -918,7 +862,6 @@
     width: 25px;
     height: 20px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 288px;
     margin-top: 216px;
     position: absolute;
@@ -929,7 +872,6 @@
     width: 25px;
     height: 15px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 325px;
     margin-top: 378px;
     position: absolute;
@@ -940,7 +882,6 @@
     width: 54px;
     height: 85px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 425px;
     margin-top: 333px;
     position: absolute;
@@ -951,7 +892,6 @@
     width: 18px;
     height: 8px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 423px;
     margin-top: 516px;
     position: absolute;
@@ -962,7 +902,6 @@
     width: 37px;
     height: 14px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 420px;
     margin-top: 540px;
     position: absolute;
@@ -973,7 +912,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 340px;
     margin-top: 280px;
     position: absolute;
@@ -983,7 +921,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 365px;
     margin-top: 300px;
     position: absolute;
@@ -993,7 +930,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 237px;
     margin-top: 272px;
     position: absolute;
@@ -1003,7 +939,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 258px;
     margin-top: 290px;
     position: absolute;
@@ -1013,7 +948,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 270px;
     margin-top: 205px;
     position: absolute;
@@ -1023,7 +957,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 220px;
       margin-top: 300px;
       position: absolute;
@@ -1033,7 +967,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 350px;
       margin-top: 350px;
       position: absolute;
@@ -1043,7 +977,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 430px;
       margin-top: 210px;
       position: absolute;
@@ -1053,7 +987,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 410px;
       margin-top: 160px;
       position: absolute;
@@ -1063,7 +997,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 455px;
       margin-top: 460px;
       position: absolute;
@@ -1073,7 +1007,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 320px;
       margin-top: 55px;
       position: absolute;
@@ -1083,7 +1017,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 230px;
       margin-top: 310px;
       position: absolute;
@@ -1093,7 +1027,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 415px;
       margin-top: 473px;
       position: absolute;
@@ -1103,7 +1037,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 417px;
       margin-top: 295px;
       position: absolute;
@@ -1113,7 +1047,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 530px;
       margin-top: 165px;
       position: absolute;
@@ -1123,7 +1057,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 535px;
       margin-top: 175px;
       position: absolute;
@@ -1133,7 +1067,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 415px;
       margin-top: 185px;
       position: absolute;
@@ -1143,7 +1077,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 560px;
       margin-top: 450px;
       position: absolute;
@@ -1153,7 +1087,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 430px;
       margin-top: 281px;
       position: absolute;
@@ -1163,7 +1097,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 503px;
       margin-top: 160px;
       position: absolute;
@@ -1173,7 +1107,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 499px;
       margin-top: 150px;
       position: absolute;
@@ -1183,7 +1117,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 553px;
       margin-top: 440px;
       position: absolute;
@@ -1193,7 +1127,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 495px;
       margin-top: 340px;
       position: absolute;
@@ -1203,7 +1137,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 305px;
       margin-top: 400px;
       position: absolute;
@@ -1213,7 +1147,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 275px;
       margin-top: 80px;
       position: absolute;
@@ -1223,7 +1157,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 675px;
       margin-top: 100px;
       position: absolute;
@@ -1268,7 +1202,6 @@
     width: 240px;
     height: 120px;
     border-radius: 64px;
-    border: 2px solid black;
     margin-top: 70px;
     margin-left: 310px;
     position: absolute;
@@ -1278,7 +1211,6 @@
     width: 200px;
     height: 200px;
     border-radius: 94px;
-    border: 2px solid black;
     margin-left: 125px;
     margin-top: 320px;
     position: absolute;
@@ -1288,7 +1220,6 @@
     width: 185px;
     height: 80px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 320px;
     margin-top: 520px;
     position: absolute;
@@ -1299,7 +1230,6 @@
     width: 90px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 460px;
     margin-top: 605px;
     position: absolute;
@@ -1310,7 +1240,6 @@
     width: 30px;
     height: 115px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 630px;
     margin-top: 515px;
     position: absolute;
@@ -1321,7 +1250,6 @@
     width: 35px;
     height: 220px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 710px;
     margin-top: 338px;
     position: absolute;
@@ -1332,7 +1260,6 @@
     width: 110px;
     height: 155px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 838px;
     margin-top: 700px;
     position: absolute;
@@ -1342,7 +1269,6 @@
     width: 270px;
     height: 60px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 260px;
     margin-top: 260px;
     position: absolute;
@@ -1353,7 +1279,6 @@
     width: 80px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 587px;
     margin-top: 197px;
     position: absolute;
@@ -1364,7 +1289,6 @@
     width: 17px;
     height: 17px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 714px;
     margin-top: 824px;
     position: absolute;
@@ -1374,7 +1298,6 @@
     width: 25px;
     height: 25px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 470px;
     margin-top: 470px;
     position: absolute;
@@ -1384,7 +1307,6 @@
     width: 150px;
     height: 70px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 640px;
     margin-top: 260px;
     position: absolute;
@@ -1395,7 +1317,6 @@
     width: 65px;
     height: 35px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 665px;
     margin-top: 190px;
     position: absolute;
@@ -1406,7 +1327,6 @@
     width: 152px;
     height: 22px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 654px;
     margin-top: 214px;
     position: absolute;
@@ -1417,7 +1337,6 @@
     width: 225px;
     height: 63px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 436px;
     margin-top: 295px;
     position: absolute;
@@ -1428,7 +1347,6 @@
     width: 40px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 373px;
     margin-top: 367px;
     position: absolute;
@@ -1438,7 +1356,6 @@
     width: 350px;
     height: 75px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 616px;
     margin-top: 545px;
     position: absolute;
@@ -1449,7 +1366,6 @@
     width: 35px;
     height: 35px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 900px;
     margin-top: 295px;
     position: absolute;
@@ -1459,7 +1375,6 @@
     width: 33px;
     height: 33px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 875px;
     margin-top: 350px;
     position: absolute;
@@ -1469,7 +1384,6 @@
     width: 15px;
     height: 55px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 824px;
     margin-top: 356px;
     position: absolute;
@@ -1479,17 +1393,15 @@
     width: 30px;
     height: 30px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 818px;
     margin-top: 308px;
     position: absolute;
   }
-
+  
   #samuri {
     width: 40px;
     height: 40px;
     border-radius: 90px;
-    border: 2px solid black;
     margin-left: 789px;
     margin-top: 746px;
     position: absolute;
@@ -1499,7 +1411,6 @@
     width: 46px;
     height: 25px;
     border-radius: 10px;
-    border: 2px solid black;
     margin-left: 412px;
     margin-top: 420px;
     position: absolute;
@@ -1510,7 +1421,6 @@
     width: 35px;
     height: 30px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 455px;
     margin-top: 339px;
     position: absolute;
@@ -1521,7 +1431,6 @@
     width: 35px;
     height: 25px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 513px;
     margin-top: 591px;
     position: absolute;
@@ -1532,7 +1441,6 @@
     width: 84px;
     height: 115px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 670px;
     margin-top: 530px;
     position: absolute;
@@ -1543,7 +1451,6 @@
     width: 27px;
     height: 12px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 663px;
     margin-top: 809px;
     position: absolute;
@@ -1554,7 +1461,6 @@
     width: 67px;
     height: 25px;
     border-radius: 20px;
-    border: 2px solid black;
     margin-left: 660px;
     margin-top: 848px;
     position: absolute;
@@ -1565,7 +1471,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 529px;
     margin-top: 458px;
     position: absolute;
@@ -1575,7 +1480,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 565px;
     margin-top: 485px;
     position: absolute;
@@ -1585,7 +1489,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 377px;
     margin-top: 432px;
     position: absolute;
@@ -1595,7 +1498,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 408px;
     margin-top: 458px;
     position: absolute;
@@ -1605,7 +1507,6 @@
     width: 10px;
     height: 10px;
     border-radius: 40px;
-    border: 2px solid black;
     margin-left: 425px;
     margin-top: 310px;
     position: absolute;
@@ -1615,7 +1516,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 340px;
       margin-top: 470px;
       position: absolute;
@@ -1625,7 +1526,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 552px;
       margin-top: 546px;
       position: absolute;
@@ -1635,7 +1536,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 660px;
       margin-top: 310px;
       position: absolute;
@@ -1645,7 +1546,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 642px;
       margin-top: 240px;
       position: absolute;
@@ -1655,7 +1556,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 696px;
       margin-top: 725px;
       position: absolute;
@@ -1665,7 +1566,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 510px;
       margin-top: 95px;
       position: absolute;
@@ -1675,7 +1576,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 355px;
       margin-top: 480px;
       position: absolute;
@@ -1685,7 +1586,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 650px;
       margin-top: 740px;
       position: absolute;
@@ -1695,7 +1596,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 655px;
       margin-top: 463px;
       position: absolute;
@@ -1705,7 +1606,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 850px;
       margin-top: 255px;
       position: absolute;
@@ -1715,7 +1616,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 855px;
       margin-top: 265px;
       position: absolute;
@@ -1725,7 +1626,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 649px;
       margin-top: 292px;
       position: absolute;
@@ -1735,7 +1636,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 890px;
       margin-top: 710px;
       position: absolute;
@@ -1745,7 +1646,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 678px;
       margin-top: 441px;
       position: absolute;
@@ -1755,7 +1656,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 793px;
       margin-top: 255px;
       position: absolute;
@@ -1765,7 +1666,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 789px;
       margin-top: 240px;
       position: absolute;
@@ -1775,7 +1676,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 870px;
       margin-top: 715px;
       position: absolute;
@@ -1785,7 +1686,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 780px;
       margin-top: 490px;
       position: absolute;
@@ -1795,7 +1696,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 475px;
       margin-top: 620px;
       position: absolute;
@@ -1805,7 +1706,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 425px;
       margin-top: 120px;
       position: absolute;
@@ -1815,7 +1716,7 @@
       width: 10px;
       height: 10px;
       border-radius: 40px;
-      border: 2px solid black;
+
       margin-left: 1060px;
       margin-top: 160px;
       position: absolute;
