@@ -6,6 +6,18 @@
   height: 100vh;
 }
 
+#attractionsAndFacilities > div {
+  background-color: blue;
+}
+
+#attractionsAndFacilities:hover > div {
+  opacity: 0.5;
+}
+
+#attractionsAndFacilities:hover > div:hover {
+  opacity: 1.0;
+}
+
 .containerForMap {
   display: flex;
   flex-direction: row;
