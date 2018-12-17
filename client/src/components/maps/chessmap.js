@@ -8,8 +8,13 @@ class ChessMap extends Component {
   render() {
     return (
       <div>
-              <Link to='/'><Button class='back' name='back' /></Link>
-              </div>
+        <div>
+          {hello}
+        </div>
+        <div>
+          <Link to='/'><Button class='back' name='back' /></Link>
+        </div>
+      </div>
     );
   }
 }

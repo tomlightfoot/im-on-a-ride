@@ -38,14 +38,6 @@ class ThorpeParkMap extends Component {
     this.setState({ showModal: !this.state.showModal });
   }
 
-  showModal = () => {
-    this.setState({show: true})
-  }
-
-  hideModal = () => {
-    this.setState({show: false})
-  }
-
   attractionsFilter = (data) => {
     data.forEach((ride) => {
       let x = this.refs[ride];

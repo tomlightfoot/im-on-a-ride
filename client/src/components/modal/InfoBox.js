@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import isNil from 'lodash/fp/isNil';
-
+import Review from './review'
 import Video from './video'
 import './InfoBoxStyle.css'
 
@@ -8,9 +8,16 @@ class InfoBox extends Component {
 
   constructor(props) {
     super(props);
-
     this.handleKeyUp = this.handleKeyUp.bind(this);
     this.handleOutsideClick = this.handleOutsideClick.bind(this);
+    this.state = {
+      feature: this.props.feature,
+      showReview: false
+    }
+  }
+
+  handleToggleReview() {
+    this.setState({ showReview: !this.state.showReview });
   }
 
   // listeners for click or key press to exit modal
@@ -53,6 +60,7 @@ class InfoBox extends Component {
 
   // passing in onCloseRequest and children props.
   render () {
+    const { showReview } = this.state;
     const {
       onCloseRequest,
       children
@@ -63,7 +71,7 @@ class InfoBox extends Component {
 
           <div className='modalContent'>
           {children}
-  
+
         <button
           type='button'
           className='closeButton' onClick={onCloseRequest}>&times;</button>
@@ -76,6 +84,11 @@ class InfoBox extends Component {
         <ul>Minimum Height = {this.props.feature.minheight}</ul>
         <ul>Minimum Age = {this.props.feature.minage}</ul>
         <Video feature={this.props.feature.video}/>
+        <button className='menubtn' id='revbtn' type='button' onClick={() => this.handleToggleReview()}>Feedback</button>
+
+        {showReview &&
+    <Review feature={this.state.feature}>
+    </Review>}
 
       </div>
     );

@@ -7,7 +7,7 @@ class Video extends Component {
       height: '260',
       width: '426',
       playerVars: {
-        autoplay: 1,
+        autoplay: 0,
         controls: 1
       }
     }
