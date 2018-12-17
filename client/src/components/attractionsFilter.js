@@ -58,7 +58,6 @@ class AttractionsFilter extends Component {
      fetch('/attractions')
       .then(res => res.json())
       .then(attractions => { this.props.callBackFromParent(attractions.filter(attraction => attraction.category === "experience ride").map(attraction => attraction.name)) })
-      console.log("hello");
    }
 
    render() {
