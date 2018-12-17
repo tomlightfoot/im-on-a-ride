@@ -18,36 +18,54 @@ class FacilitiesFilter extends Component {
      this.setState({
        isCheckedToilets: !this.state.isCheckedToilets,
      });
+     fetch('/facilities')
+      .then(res => res.json())
+      .then(facilities => { this.props.callBackFromParent(facilities.filter(facilities => facilities.type === "toilet").map(facility => facility._id)) })
    }
 
    toggleChangeLockers = () => {
      this.setState({
        isCheckedLockers: !this.state.isCheckedLockers,
      });
+     fetch('/facilities')
+      .then(res => res.json())
+      .then(facilities => { this.props.callBackFromParent(facilities.filter(facilities => facilities.type === "lockers").map(facility => facility._id)) })
    }
 
    toggleChangeGuestServices = () => {
      this.setState({
        isCheckedGuestServices: !this.state.isCheckedGuestServices,
      });
+     fetch('/facilities')
+      .then(res => res.json())
+      .then(facilities => { this.props.callBackFromParent(facilities.filter(facilities => facilities.type === "guest services").map(facility => facility._id)) })
    }
 
    toggleChangeHealthCentre = () => {
      this.setState({
        isCheckedHealthCentre: !this.state.isCheckedHealthCentre,
      });
+     fetch('/facilities')
+      .then(res => res.json())
+      .then(facilities => { this.props.callBackFromParent(facilities.filter(facilities => facilities.type === "health centre").map(facility => facility._id)) })
    }
 
    toggleChangeKiosk = () => {
      this.setState({
        isCheckedKiosk: !this.state.isCheckedKiosk,
      });
+     fetch('/facilities')
+      .then(res => res.json())
+      .then(facilities => { this.props.callBackFromParent(facilities.filter(facilities => facilities.type === "kiosk").map(facility => facility._id)) })
    }
 
    toggleChangeFood = () => {
      this.setState({
        isCheckedFood: !this.state.isCheckedFood,
      });
+     fetch('/facilities')
+      .then(res => res.json())
+      .then(facilities => { this.props.callBackFromParent(facilities.filter(facilities => facilities.type === "food").map(facility => facility._id)) })
    }
 
    render() {
