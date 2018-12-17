@@ -7,7 +7,7 @@
 }
 
 #attractionsAndFacilities > div {
-  background-color: blue;
+  opacity: 0.75;
 }
 
 #attractionsAndFacilities:hover > div {
@@ -253,7 +253,7 @@
     position: absolute;
   }
 
-  #zodiak {
+  #zodiac {
     width: 20px;
     height: 20px;
     border-radius: 90px;
@@ -279,7 +279,7 @@
     margin-top: 143px;
     position: absolute;
   }
-  
+
   #samuri {
     width: 20px;
     height: 20px;
@@ -812,7 +812,7 @@
     position: absolute;
   }
 
-  #zodiak {
+  #zodiac {
     width: 25px;
     height: 25px;
     border-radius: 90px;
@@ -838,7 +838,7 @@
     margin-top: 197px;
     position: absolute;
   }
-  
+
   #samuri {
     width: 26px;
     height: 26px;
@@ -1207,6 +1207,12 @@
     position: absolute;
   }
 
+  #swarm img {
+    width: 240px;
+    height: 120px;
+    border-radius: 64px;
+  }
+
   #rumbaRapids {
     width: 200px;
     height: 200px;
@@ -1214,6 +1220,12 @@
     margin-left: 125px;
     margin-top: 320px;
     position: absolute;
+  }
+
+  #rumbaRapids img {
+    width: 200px;
+    height: 200px;
+    border-radius: 94px;
   }
 
   #nemesis {
@@ -1273,6 +1285,14 @@
     margin-top: 260px;
     position: absolute;
     transform: rotate(158deg);
+  }
+
+  #stealth img {
+    width: 270px;
+    height: 60px;
+    border-radius: 90px;
+    opacity: 0.8;
+    transform: rotate(180deg);
   }
 
   #flyingFish {
@@ -1371,7 +1391,13 @@
     position: absolute;
   }
 
-  #zodiak {
+  #vortex img {
+    width: 35px;
+    height: 35px;
+    border-radius: 90px;
+  }
+
+  #zodiac {
     width: 33px;
     height: 33px;
     border-radius: 90px;
@@ -1397,7 +1423,7 @@
     margin-top: 308px;
     position: absolute;
   }
-  
+
   #samuri {
     width: 40px;
     height: 40px;

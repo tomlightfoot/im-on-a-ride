@@ -78,14 +78,20 @@ class ThorpeParkMap extends Component {
     {title}
       <div id='map'>
         <div id='attractionsAndFacilities'>
-          <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}></div>
-          <div ref="Rumba Rapids" id="rumbaRapids" className="ride" onClick={() => this.toggleRideInfo("Rumba Rapids")}></div>
+          <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}>
+            <img src={require('.././images/swarm.jpg')} border-radius="64"></img>
+          </div>
+          <div ref="Rumba Rapids" id="rumbaRapids" className="ride" onClick={() => this.toggleRideInfo("Rumba Rapids")}>
+            <img src={require('.././images/rapids.png')} border-radius="64"></img>
+          </div>
           <div ref="Nemesis Inferno" id="nemesis" className="ride" onClick={() => this.toggleRideInfo("Nemesis Inferno")}></div>
           <div ref="I'm a Celebrity" id="celebrity" className="ride" onClick={() => this.toggleRideInfo("I'm a Celebrity")}></div>
           <div ref="Derren Brown's Ghost Train" id="derrenBrown" className="ride" onClick={() => this.toggleRideInfo("Derren Brown's Ghost Train")}></div>
           <div ref="Storm Surge" id="stormSurge" className="ride" onClick={() => this.toggleRideInfo("Storm Surge")}></div>
           <div ref="Saw" id="saw" className="ride" onClick={() => this.toggleRideInfo("Saw")}></div>
-          <div ref="Stealth" id="stealth" className="ride" onClick={() => this.toggleRideInfo("Stealth")}></div>
+          <div ref="Stealth" id="stealth" className="ride" onClick={() => this.toggleRideInfo("Stealth")}>
+            <img src={require('.././images/stealth.jpg')} border-radius="64"></img>
+          </div>
           <div ref="Flying Fish" id="flyingFish" className="ride" onClick={() => this.toggleRideInfo("Flying Fish")}></div>
           <div ref="Rocky Express" id="rockyExpress" className="ride" onClick={() => this.toggleRideInfo("Rocky Express")}></div>
           <div ref="Detonator" id="detonator" className="ride" onClick={() => this.toggleRideInfo("Detonator")}></div>
@@ -95,7 +101,9 @@ class ThorpeParkMap extends Component {
           <div ref="Tidal Wave" id="tidalWave" className="ride" onClick={() => this.toggleRideInfo("Tidal Wave")}></div>
           <div ref="Storm Cup" id="stormCup" className="ride" onClick={() => this.toggleRideInfo("Storm Cup")}></div>
           <div ref="Colossus" id="colossus" className="ride" onClick={() => this.toggleRideInfo("Colossus")}></div>
-          <div ref="Vortex" id="vortex" className="ride" onClick={() => this.toggleRideInfo("Vortex")}></div>
+          <div ref="Vortex" id="vortex" className="ride" onClick={() => this.toggleRideInfo("Vortex")}>
+            <img src={require('.././images/vortex.jpg')} border-radius="64"></img>
+          </div>
           <div ref="Zodiac" id="zodiac" className="ride" onClick={() => this.toggleRideInfo("Zodiac")}></div>
           <div ref="Rush" id="rush" className="ride" onClick={() => this.toggleRideInfo("Rush")}></div>
           <div ref="Quantum" id="quantum" className="ride" onClick={() => this.toggleRideInfo("Quantum")}></div>
