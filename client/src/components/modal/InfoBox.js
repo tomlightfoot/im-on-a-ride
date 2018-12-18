@@ -78,12 +78,12 @@ class InfoBox extends Component {
       </div>
       <h4>{this.props.feature.name}</h4>
 
-        <ul>Thrill Rating = {this.props.feature.thrill}</ul>
         <ul>Ridetime = {this.props.feature.ridetime}</ul>
         <ul>Category = {this.props.feature.category}</ul>
         <ul>Minimum Height = {this.props.feature.minheight}</ul>
         <ul>Minimum Age = {this.props.feature.minage}</ul>
-        <Video feature={this.props.feature.video}/>
+        <Video autoPlay={this.props.autoPlay}
+          feature={this.props.feature.video}/>
         <button className='menubtn' id='revbtn' type='button' onClick={() => this.handleToggleReview()}>Feedback</button>
 
         {showReview &&

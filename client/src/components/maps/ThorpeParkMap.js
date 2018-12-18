@@ -6,7 +6,6 @@ import FacilitiesFilter from'.././facilitiesFilter'
 import InfoBox from '../../components/modal/InfoBox'
 import { Link } from "react-router-dom";
 import Button from '../button'
-import Switch from '.././switch'
 
 const title = <h1>Thorpe Park</h1>
 
@@ -18,6 +17,7 @@ class ThorpeParkMap extends Component {
       features: null,
       feature: null,
       showModal: false,
+      checked: false
     }
   }
 
@@ -28,7 +28,6 @@ class ThorpeParkMap extends Component {
   }
 
   toggleRideInfo(ride) {
-
     let rideInfo = this.state.features.filter(feature => feature.name === ride)[0]
     this.setState({ feature: rideInfo })
     console.log(this.state.feature);
@@ -65,13 +64,11 @@ class ThorpeParkMap extends Component {
 
   render() {
     const { showModal } = this.state;
+    const { checked } = this.state
     return (
 
     <div className="containerForMap">
     {title}
-    <div className='autoPlaySwitch'>
-      {<Switch />}
-    </div>
       <div id='map'>
         <div id='attractionsAndFacilities'>
           <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}>
@@ -194,7 +191,7 @@ class ThorpeParkMap extends Component {
       </div>
     <Link to='/'><Button class='back' name='back' /></Link>
     {showModal &&
-    <InfoBox feature={this.state.feature} onCloseRequest={() => this.handleToggleModal()}>
+    <InfoBox autoPlay={this.state.checked} feature={this.state.feature} onCloseRequest={() => this.handleToggleModal()}>
     </InfoBox>}
     </div>
     )
