@@ -63,7 +63,7 @@ class InfoBox extends Component {
 
           <div className='modalContent'>
           {children}
-  
+
         <button
           type='button'
           className='closeButton' onClick={onCloseRequest}>&times;</button>

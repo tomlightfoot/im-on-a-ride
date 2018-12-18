@@ -8,6 +8,10 @@ app.use(express.static(`${__dirname}/static`))
 app.get('/attractions', (req, res) => {
   service.getAttractions().then(attractions => res.json(attractions))
 })
+app.get('/attractions/:id', (req, res) => {
+  console.log(req.params.id);
+  service.findAttraction(req.params.id).then(attractions => res.json(attractions))
+})
 app.get('/facilities', (req, res) => {
   service.getFacilities().then(facilities => res.json(facilities))
 })
