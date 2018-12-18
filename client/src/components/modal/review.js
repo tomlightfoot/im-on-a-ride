@@ -6,7 +6,7 @@ class Review extends Component {
   render() {
     return(
     <div className='reviewModal'>
-    <h1>Feedback</h1>
+    <h2>Feedback</h2>
     <p>Please click a rating:</p>
     </div>
     )

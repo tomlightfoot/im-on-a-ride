@@ -6,6 +6,7 @@ import FacilitiesFilter from'.././facilitiesFilter'
 import InfoBox from '../../components/modal/InfoBox'
 import { Link } from "react-router-dom";
 import Button from '../button'
+import Switch from '.././switch'
 
 const title = <h1>Thorpe Park</h1>
 
@@ -68,6 +69,9 @@ class ThorpeParkMap extends Component {
 
     <div className="containerForMap">
     {title}
+    <div className='autoPlaySwitch'>
+      {<Switch />}
+    </div>
       <div id='map'>
         <div id='attractionsAndFacilities'>
           <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}></div>

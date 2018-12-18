@@ -1,6 +1,7 @@
 .modal {
   position: absolute;
-  color: red;
+  color: yellow;
+  text-align: left;
   top: 10%;
   left: 10px;
   width: min;
@@ -10,6 +11,11 @@
   animation: slide 2s ease;
   background: rgba(0, 0, 0, 0.6);
   z-index: initial;
+}
+
+h4 {
+  text-decoration: underline;
+  text-align: center;
 }
 
 #revbtn {
@@ -29,7 +35,7 @@
   left: 100%;
   z-index: 1;
 }
-h1, p {
+h2, p {
   display: block;
   animation: test 2s;
 }
