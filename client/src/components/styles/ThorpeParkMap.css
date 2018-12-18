@@ -49,6 +49,10 @@
     height: 300px;
   }
 
+  img {
+    display: none;
+  }
+
   .titleLogo {
 
     width: 200px;
@@ -1714,7 +1718,7 @@
     margin-top: 473px;
   }
 
- 
+
 
 
   #stormSurge img {
@@ -1877,7 +1881,7 @@
     border-radius: 90px;
     margin-right: 10px;
     transform: rotate(280deg);
-
+  }
   #lockersFour img {
     width: 30px;
     height: 30px;
@@ -2675,7 +2679,7 @@
     height: 40px;
     border-radius: 90px;
   }
-    
+
   #toiletOne img {
     width: 40px;
     height: 40px;
