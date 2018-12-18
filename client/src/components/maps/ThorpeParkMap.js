@@ -7,7 +7,7 @@ import InfoBox from '../../components/modal/InfoBox'
 import { Link } from "react-router-dom";
 import Button from '../button'
 
-const title = <h1>Thorpe Park</h1>
+const title = <img className='titleLogo' src={require('.././images/facilities/entrance.png')} alt="gate" />
 
 class ThorpeParkMap extends Component {
 
@@ -75,7 +75,9 @@ class ThorpeParkMap extends Component {
     return (
 
     <div className="containerForMap">
-    {title}
+      <div id="titleHolder">
+        {title}
+      </div>
       <div id='map'>
         <div id='attractionsAndFacilities'>
           <div ref="Swarm" id="swarm" className="ride" onClick={() => this.toggleRideInfo("Swarm")}>
@@ -157,37 +159,90 @@ class ThorpeParkMap extends Component {
             <img src={require('.././images/attractions/walking_dead.jpg')} alt="Walking Dead" />
           </div>
           <div ref="Lumber" id="lumber" className="ride" onClick={() => this.toggleRideInfo("Lumber")}>
+
             <img src={require('.././images/attractions/lumber.png')} alt="Lumber" />
           </div>
           <div ref="Timber Tug Boat" id="timber" className="ride" onClick={() => this.toggleRideInfo("Timber Tug Boat")}>
             <img src={require('.././images/attractions/timber.jpg')} alt="Timber" />
           </div>
-          <div ref="5c0e7976fb6fc04dd6e95687" id="kfc" className="facility"></div>
-          <div ref="5c0e7e8dfb6fc04dd6e95a4c" id="donut" className="facility"></div>
-          <div ref="5c0e78f8fb6fc04dd6e95627" id="burgerKing" className="facility"></div>
-          <div ref="5c0e7916fb6fc04dd6e9564a" id="sombrero" className="facility"></div>
-          <div ref="5c0e78dffb6fc04dd6e95606" id="amityFish" className="facility"></div>
-          <div ref="5c0e792ffb6fc04dd6e95651" id="infernoPizza" className="facility"></div>
-          <div ref="5c0e7e52fb6fc04dd6e95a09" id="nitrogenie" className="facility"></div>
-          <div ref="5c0e7e67fb6fc04dd6e95a18" id="amityKebab" className="facility"></div>
-          <div ref="5c0e7e78fb6fc04dd6e95a1e" id="beachShack" className="facility"></div>
-          <div ref="5c0e7ef8fb6fc04dd6e95ab3" id="colossusSnack" className="facility"></div>
-          <div ref="5c0e77bdfb6fc04dd6e954ca" id="toiletOne" className="facility"></div>
-          <div ref="5c0e77c7fb6fc04dd6e954cd" id="toiletTwo" className="facility"></div>
-          <div ref="5c0e77d5fb6fc04dd6e95513" id="toiletThree" className="facility"></div>
-          <div ref="5c0e77dcfb6fc04dd6e95522" id="toiletFour" className="facility"></div>
-          <div ref="5c0e77e4fb6fc04dd6e95529" id="toiletFive" className="facility"></div>
-          <div ref="5c0e781afb6fc04dd6e95571" id="lockersOne" className="facility"></div>
-          <div ref="5c0e784cfb6fc04dd6e9558b" id="lockersTwo" className="facility"></div>
-          <div ref="5c0e7859fb6fc04dd6e95595" id="lockersThree" className="facility"></div>
-          <div ref="5c0e786afb6fc04dd6e955ad" id="lockersFour" className="facility"></div>
-          <div ref="5c0e77f6fb6fc04dd6e95560" id="guestServices" className="facility"></div>
-          <div ref="5c0e780dfb6fc04dd6e9556f" id="healthCentre" className="facility"></div>
-          <div ref="5c0e7f3dfb6fc04dd6e95adb" id="gate" className="facility"></div>
-          <div ref="5c0e7f07fb6fc04dd6e95ac0" id="sawKiosk" className="facility"></div>
-          <div ref="5c0e7e9dfb6fc04dd6e95a69" id="colossusKiosk" className="facility"></div>
-          <div ref="5c0e7948fb6fc04dd6e95655" id="infernoKiosk" className="facility"></div>
-          <div ref="5c0e78b3fb6fc04dd6e955d1" id="swarmKiosk" className="facility"></div>
+          <div ref="5c0e7976fb6fc04dd6e95687" id="kfc" className="facility" >
+            <img src={require('.././images/facilities/kfc.png')} alt="KFC" />
+          </div>
+          <div ref="5c0e7e8dfb6fc04dd6e95a4c" id="donut" className="facility">
+            <img src={require('.././images/facilities/donut.png')} alt="donut" />
+          </div>
+          <div ref="5c0e78f8fb6fc04dd6e95627" id="burgerKing" className="facility">
+            <img src={require('.././images/facilities/bk.png')} alt="burgerKing" />
+          </div>
+          <div ref="5c0e7916fb6fc04dd6e9564a" id="sombrero" className="facility">
+            <img src={require('.././images/facilities/sombrero.png')} alt="sombrero" />
+          </div>
+          <div ref="5c0e78dffb6fc04dd6e95606" id="amityFish" className="facility">
+            <img src={require('.././images/facilities/fish.png')} alt="amityFish" />
+          </div>
+          <div ref="5c0e792ffb6fc04dd6e95651" id="infernoPizza" className="facility">
+            <img src={require('.././images/facilities/sombrero.png')} alt="infernoPizza" />
+          </div>
+          <div ref="5c0e7e52fb6fc04dd6e95a09" id="nitrogenie" className="facility">
+            <img src={require('.././images/facilities/icecream.png')} alt="nitrogenie" />
+          </div>
+          <div ref="5c0e7e67fb6fc04dd6e95a18" id="amityKebab" className="facility">
+            <img src={require('.././images/facilities/kebab.png')} alt="amityKebab" />
+          </div>
+          <div ref="5c0e7e78fb6fc04dd6e95a1e" id="beachShack" className="facility">
+            <img src={require('.././images/facilities/icecream.png')} alt="beachShack" />
+          </div>
+          <div ref="5c0e7ef8fb6fc04dd6e95ab3" id="colossusSnack" className="facility">
+            <img src={require('.././images/facilities/kebab.png')} alt="colossusSnack" />
+          </div>
+          <div ref="5c0e77bdfb6fc04dd6e954ca" id="toiletOne" className="facility">
+            <img src={require('.././images/facilities/toilet.png')} alt="toiletOne" />
+          </div>
+          <div ref="5c0e77c7fb6fc04dd6e954cd" id="toiletTwo" className="facility">
+            <img src={require('.././images/facilities/toilet.png')} alt="toiletTwo" />
+          </div>
+          <div ref="5c0e77d5fb6fc04dd6e95513" id="toiletThree" className="facility">
+            <img src={require('.././images/facilities/toilet.png')} alt="toiletThree" />
+          </div>
+          <div ref="5c0e77dcfb6fc04dd6e95522" id="toiletFour" className="facility">
+            <img src={require('.././images/facilities/toilet.png')} alt="toiletFour" />
+          </div>
+          <div ref="5c0e77e4fb6fc04dd6e95529" id="toiletFive" className="facility">
+            <img src={require('.././images/facilities/toilet.png')} alt="toiletFive" />
+          </div>
+          <div ref="5c0e781afb6fc04dd6e95571" id="lockersOne" className="facility">
+            <img src={require('.././images/facilities/lockers.png')} alt="lockersOne" />
+          </div>
+          <div ref="5c0e784cfb6fc04dd6e9558b" id="lockersTwo" className="facility">
+            <img src={require('.././images/facilities/lockers.png')} alt="lockersTwo" />
+          </div>
+          <div ref="5c0e7859fb6fc04dd6e95595" id="lockersThree" className="facility">
+            <img src={require('.././images/facilities/lockers.png')} alt="lockersThree" />
+          </div>
+          <div ref="5c0e786afb6fc04dd6e955ad" id="lockersFour" className="facility">
+            <img src={require('.././images/facilities/lockers.png')} alt="lockersFour" />
+          </div>
+          <div ref="5c0e77f6fb6fc04dd6e95560" id="guestServices" className="facility">
+            <img src={require('.././images/facilities/information.png')} alt="guestServices" />
+          </div>
+          <div ref="5c0e780dfb6fc04dd6e9556f" id="healthCentre" className="facility">
+            <img src={require('.././images/facilities/healthcentre.png')} alt="healthCentre" />
+          </div>
+          <div ref="5c0e7f3dfb6fc04dd6e95adb" id="gate" className="facility">
+            <img src={require('.././images/facilities/gate.png')} alt="gate" />
+          </div>
+          <div ref="5c0e7f07fb6fc04dd6e95ac0" id="sawKiosk" className="facility">
+            <img src={require('.././images/facilities/kiosk.png')} alt="sawKiosk" />
+          </div>
+          <div ref="5c0e7e9dfb6fc04dd6e95a69" id="colossusKiosk" className="facility">
+            <img src={require('.././images/facilities/kiosk.png')} alt="colossusKiosk" />
+          </div>
+          <div ref="5c0e7948fb6fc04dd6e95655" id="infernoKiosk" className="facility">
+            <img src={require('.././images/facilities/kiosk.png')} alt="infernoKiosk" />
+          </div>
+          <div ref="5c0e78b3fb6fc04dd6e955d1" id="swarmKiosk" className="facility">
+            <img src={require('.././images/facilities/kiosk.png')} alt="swarmKiosk" />
+          </div>
         </div>
         <section id="filters">
           <div id="attractionsFilter">
