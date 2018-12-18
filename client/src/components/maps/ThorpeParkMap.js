@@ -226,7 +226,7 @@ class ThorpeParkMap extends Component {
           <img src={require('.././images/facilities/healthcentre.png')} alt="healthCentre" />
         </div>
           <div ref="5c0e7f3dfb6fc04dd6e95adb" id="gate" className="facility">
-          <img src={require('.././images/facilities/entrance.png')} alt="gate" />
+          <img src={require('.././images/facilities/gate.png')} alt="gate" />
         </div>
           <div ref="5c0e7f07fb6fc04dd6e95ac0" id="sawKiosk" className="facility">
           <img src={require('.././images/facilities/kiosk.png')} alt="sawKiosk" />
