@@ -4,7 +4,7 @@ mongoose.connect(mongoUrl)
 const ObjectId = mongoose.Schema.Types.ObjectId
 
 const AttractionSchema = new mongoose.Schema({
-  _id: String,
+  _id: ObjectId,
   park: String,
   name: String,
   thrill: Number,
@@ -14,7 +14,7 @@ const AttractionSchema = new mongoose.Schema({
   minheight: String
 })
 const FacilitySchema = new mongoose.Schema({
-  _id: String,
+  _id: ObjectId,
   park: String,
   type: String
 })
@@ -24,5 +24,6 @@ const Facility = mongoose.model('Facilities', FacilitySchema, 'Facilities')
 
 module.exports = {
   getAttractions: () => Attraction.find(),
+  findAttraction: attraction => Attraction.findById(attraction),
   getFacilities: () => Facility.find()
 }

@@ -12,8 +12,8 @@ describe('service', () => {
   it('should find all attractions', () => {
     return service.getAttractions()
       .then(attractions => {
-        console.log(attractions)
         expect(attractions.length).to.equal(1)
+        expect(attractions[0].id).to.equal('5c0e57a5fb6fc04dd6e937ef')
         expect(attractions[0].park).to.equal('thorpe park')
         expect(attractions[0].name).to.equal('Stealth')
         expect(attractions[0].thrill).to.equal(5)
