@@ -7,7 +7,14 @@ const hello = <h1>Hello, this is where the LegoLand park map will go</h1>
 class LegoMap extends Component {
   render() {
     return (
-              <Link to='/'><Button class='back' name='back' /></Link>
+      <div>
+        <div>
+          {hello}
+        </div>
+        <div>
+          <Link to='/'><Button class='back' name='back' /></Link>
+        </div>
+      </div>
     );
   }
 }
