@@ -11,8 +11,10 @@ const AttractionSchema = new mongoose.Schema({
   video: String,
   ridetime: String,
   category: String,
-  minheight: String
+  minheight: String,
+  divid: String
 })
+
 const FacilitySchema = new mongoose.Schema({
   _id: ObjectId,
   park: String,
