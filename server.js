@@ -8,10 +8,22 @@ app.use(express.static(`${__dirname}/static`))
 app.get('/attractions', (req, res) => {
   service.getAttractions().then(attractions => res.json(attractions))
 })
+
 app.get('/attractions/:id', (req, res) => {
   console.log(req.params.id);
   service.findAttraction(req.params.id).then(attractions => res.json(attractions))
 })
+
+app.put('/attractions/:name/:thrill', (req, res) => {
+ console.log(req.params.name, req.params.thrill);
+ service.updateAttractions(
+   { name: req.params.name },
+   { $push: { thrill: req.params.thrill }}
+ )
+ .then(attractions => res.json(attractions))
+ .catch(err => res.status(404).json({ err }));
+});
+
 app.get('/facilities', (req, res) => {
   service.getFacilities().then(facilities => res.json(facilities))
 })

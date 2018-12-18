@@ -7,7 +7,7 @@ const AttractionSchema = new mongoose.Schema({
   _id: ObjectId,
   park: String,
   name: String,
-  thrill: Number,
+  thrill: [Number],
   video: String,
   ridetime: String,
   category: String,
@@ -25,5 +25,6 @@ const Facility = mongoose.model('Facilities', FacilitySchema, 'Facilities')
 module.exports = {
   getAttractions: () => Attraction.find(),
   findAttraction: attraction => Attraction.findById(attraction),
+  updateAttractions: (attraction, data) => Attraction.findOneAndUpdate(attraction, data),
   getFacilities: () => Facility.find()
 }
