@@ -8,7 +8,7 @@ class AltonMap extends Component {
 
   render() {
 
-      const hello = <h1>Hello, this is where the Alton Towers map will go</h1>
+      const hello = <h1>Alton Towers map coming soon!</h1>
     return (
       <div>
           {hello}
