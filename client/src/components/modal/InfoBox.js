@@ -9,7 +9,7 @@ class InfoBox extends Component {
   constructor(props) {
     super(props);
     this.handleKeyUp = this.handleKeyUp.bind(this);
-    // this.handleOutsideClick = this.handleOutsideClick.bind(this);
+    this.handleOutsideClick = this.handleOutsideClick.bind(this);
     this.state = {
       feature: this.props.feature,
       showReview: false
@@ -47,16 +47,16 @@ class InfoBox extends Component {
   }
 
   // Handling the mouse click on browser window.
-  // handleOutsideClick(e) {
-  //   const { onCloseRequest } = this.props;
-  //
-  //   if (!isNil(this.modal)) {
-  //     if (!this.modal.contains(e.target)) {
-  //       onCloseRequest();
-  //       document.removeEventListener('click', this.handleOutsideClick, false);
-  //     }
-  //   }
-  // }
+  handleOutsideClick(e) {
+    const { onCloseRequest } = this.props;
+
+    if (!isNil(this.modal)) {
+      if (!this.modal.contains(e.target)) {
+        onCloseRequest();
+        document.removeEventListener('click', this.handleOutsideClick, false);
+      }
+    }
+  }
 
   // passing in onCloseRequest and children props.
   render () {
