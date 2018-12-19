@@ -84,10 +84,10 @@ class InfoBox extends Component {
         <ul>Minimum Height = {this.props.feature.minheight}</ul>
         <ul>Minimum Age = {this.props.feature.minage}</ul>
         <Video feature={this.props.feature.video}/>
-        <button className='menubtn' id='revbtn' type='button' onClick={() => this.handleToggleReview()}>Feedback</button>
+        <button className='menubtn' id='revbtn' type='button' onClick={this.handleToggleReview.bind(this)}>Feedback</button>
 
         {showReview &&
-    <Review feature={this.state.feature}>
+    <Review feature={this.state.feature} callBackFromParent={this.handleToggleReview.bind(this)}>
     </Review>}
 
       </div>

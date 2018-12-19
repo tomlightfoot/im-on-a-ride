@@ -10,14 +10,13 @@ app.get('/attractions', (req, res) => {
 })
 
 app.get('/attractions/:id', (req, res) => {
-  console.log(req.params.id);
   service.findAttraction(req.params.id).then(attractions => res.json(attractions))
 })
 
-app.put('/attractions/:divid/:thrill', (req, res) => {
- console.log(req.params.divid, req.params.thrill);
+app.put('/attractions/:name/:thrill', (req, res) => {
+ console.log(req.params.name, req.params.thrill);
  service.updateAttractions(
-   { divid: req.params.divid },
+   { name: req.params.name },
    { $push: { thrill: req.params.thrill }}
  )
  .then(attractions => res.json(attractions))

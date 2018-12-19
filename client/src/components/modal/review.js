@@ -4,8 +4,8 @@ import './InfoBoxStyle.css'
 
 
 class Review extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       rating_half_star: null,
@@ -16,15 +16,15 @@ class Review extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props.feature._id)
     fetch('/attractions/' + this.props.feature._id)
     .then(res => res.json())
-    .then(data => {this.setState({feature: data})})
-    let thrillArray = this.props.feature.thrill
-    let reducer = (accumulator, currentValue) => accumulator + currentValue;
-    let thrillAverage = Math.round((thrillArray.reduce(reducer)/thrillArray.length)*2)/2
-    this.setState({rating_half_star: thrillAverage, holder: thrillAverage});
-    this.setState({clicked: false})
+    .then(data => {
+      let thrillArray = data.thrill
+      let reducer = (accumulator, currentValue) => accumulator + currentValue;
+      let thrillAverage = Math.round((thrillArray.reduce(reducer)/thrillArray.length)*2)/2
+      this.setState({rating_half_star: thrillAverage, holder: thrillAverage});
+      this.setState({clicked: false})
+    })
   }
 
   onStarClickHalfStar(nextValue, prevValue, name, e) {
@@ -67,7 +67,7 @@ class Review extends Component {
       return res
     }).catch(err => err)
 
-    this.componentDidMount()
+    this.props.callBackFromParent()
   }
 
   render() {
