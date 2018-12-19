@@ -78,7 +78,7 @@ class InfoBox extends Component {
         <ul>
           <li>Thrill rating = {Math.round((this.props.feature.thrill.reduce((accumulator, currentValue) => accumulator + currentValue)/this.props.feature.thrill.length) * 100) / 100} <button className='menubtn' id='revbtn' type='button' onClick={this.handleToggleReview.bind(this)}>Feedback</button></li>
           <li>Ridetime = {this.props.feature.ridetime}</li>
-          <li>Category = {this.props.feature.category}</li>
+          <li>Category = {capitalize(this.props.feature.category)}</li>
           <li>Minimum Height = {this.props.feature.minheight}</li>
           <li>Minimum Age = {this.props.feature.minage}</li>
         </ul>
