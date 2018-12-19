@@ -49,19 +49,18 @@
     height: 300px;
   }
 
+  #filters {
+    display: none;
+  }
+
   img {
     display: none;
   }
 
   .titleLogo {
-
     width: 200px;
     height: 100%;
   }
-}
-
-#filters {
-  display: none;
 }
 
 @media only screen and (min-width: 561px){
@@ -144,12 +143,6 @@
     margin-left: 10px;
     border-radius: 90px;
     transform: rotate(220deg);
-  }
-
-  .titleLogo {
-
-    width: 200px;
-    height: 100%;
   }
 
   #celebrity {
@@ -304,6 +297,7 @@
     transform: rotate(310deg);
   }
 
+
   #wet {
     width: 30px;
     height: 16px;
@@ -320,6 +314,7 @@
     border-radius: 90px;
     transform: rotate(290deg);
   }
+
 
   #depthCharge {
     width: 68px;
@@ -339,6 +334,7 @@
     transform: rotate(290deg);
   }
 
+
   #tidalWave {
     width: 128px;
     height: 23px;
@@ -355,6 +351,7 @@
     border-radius: 90px;
     transform: rotate(0deg);
   }
+
 
   #stormCup {
     width: 20px;
@@ -480,6 +477,7 @@
     transform: rotate(160deg);
   }
 
+
   #kingPig {
     width: 15px;
     height: 10px;
@@ -513,6 +511,7 @@
     transform: rotate(330deg);
   }
 
+
   #livingNightmare {
     width: 35px;
     height: 55px;
@@ -530,6 +529,7 @@
     border-radius: 20px;
     transform: rotate(320deg);
   }
+
 
   #lumber {
     width: 10px;
@@ -564,6 +564,7 @@
     border-radius: 20px;
     transform: rotate(320deg);
   }
+
 
   #kfc {
     width: 10px;
@@ -980,11 +981,9 @@
     border-radius: 20px;
     transform: rotate(0deg);
     background-color: red;
-
   }
 
   .titleLogo {
-
     width: 200px;
     height: 100%;
   }
@@ -1008,7 +1007,6 @@
       padding-left: 5px;
       float: left;
   }
-
   #facilitiesFilter {
       width: 132px;
       height: 100%;
@@ -1565,448 +1563,346 @@
     transform: rotate(0deg);
   }
 
-  #infernoPizza {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 220px;
-    margin-top: 300px;
-    position: absolute;
-  }
+    #infernoPizza {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 220px;
+      margin-top: 300px;
+      position: absolute;
+    }
 
-  #infernoPizza img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #infernoPizza img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #nitrogenie {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 350px;
-    margin-top: 350px;
-    position: absolute;
-  }
+    #nitrogenie {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 350px;
+      margin-top: 350px;
+      position: absolute;
+    }
 
-  #nitrogenie img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #nitrogenie img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #amityKebab {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 430px;
-    margin-top: 210px;
-    position: absolute;
-  }
+    #amityKebab {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 430px;
+      margin-top: 210px;
+      position: absolute;
+    }
 
-  #amityKebab img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #amityKebab img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #beachShack {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 410px;
-    margin-top: 160px;
-    position: absolute;
-  }
+    #beachShack {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 410px;
+      margin-top: 160px;
+      position: absolute;
+    }
 
-  #beachShack img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #beachShack img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #colossusSnack {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 455px;
-    margin-top: 460px;
-    position: absolute;
-  }
+    #colossusSnack {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 455px;
+      margin-top: 460px;
+      position: absolute;
+    }
 
-  #colossusSnack img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #colossusSnack img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletOne {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 320px;
-    margin-top: 55px;
-  }
+    #toiletOne {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 320px;
+      margin-top: 55px;
+      position: absolute;
+    }
 
-    #celebrity {
-    width: 90px;
-    height: 40px;
-    border-radius: 90px;
-    margin-left: 460px;
-    margin-top: 610px;
-    position: absolute;
-  }
+    #toiletOne img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletOne img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #toiletTwo {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 230px;
+      margin-top: 310px;
+      position: absolute;
+    }
 
-  #celebrity img {
-    width: 90px;
-    height: 40px;
-    border-radius: 90px;
-    transform: rotate(0deg)
-  }
+    #toiletTwo img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletTwo {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 230px;
-    margin-top: 310px;
-    position: absolute;
-  }
+    #toiletThree {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 415px;
+      margin-top: 473px;
+      position: absolute;
+    }
 
+    #toiletThree img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #derrenBrown img {
-    width: 65px;
-    height: 65px;
-    border-radius: 25px;
-    margin-top: 25px;
-    transform: rotate(160deg);
-  }
+    #toiletFour {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 417px;
+      margin-top: 295px;
+      position: absolute;
+    }
 
-  #stormSurge {
-    width: 45px;
-    height: 220px;
-    border-radius: 90px;
-    margin-left: 710px;
-    margin-top: 338px;
-    position: absolute;
-  }
+    #toiletFour img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletTwo img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #toiletFive {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 530px;
+      margin-top: 165px;
+      position: absolute;
+    }
 
-  #toiletThree {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 415px;
-    margin-top: 473px;
-  }
+    #toiletFive img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
+    #lockersOne {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 535px;
+      margin-top: 175px;
+      position: absolute;
+    }
 
+    #lockersOne img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
+    #lockersTwo {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 415px;
+      margin-top: 185px;
+      position: absolute;
+    }
 
-  #stormSurge img {
-    margin-top: 40px;
-    width: 85px;
-    height: 70px;
-    border-radius: 90px;
-    transform: rotate(200deg);
-  }
+    #lockersTwo img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletThree img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #lockersThree {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 560px;
+      margin-top: 450px;
+      position: absolute;
+    }
 
-  #toiletFour {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 417px;
-    margin-top: 295px;
-    position: absolute;
-  }
+    #lockersThree img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletFour img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #lockersFour {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 430px;
+      margin-top: 281px;
+      position: absolute;
+    }
 
-  #toiletFive {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 530px;
-    margin-top: 165px;
-    position: absolute;
-  }
+    #lockersFour img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #toiletFive img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #guestServices {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 503px;
+      margin-top: 160px;
+      position: absolute;
+    }
 
-  #lockersOne {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 535px;
-    margin-top: 175px;
-    position: absolute;
-  }
+    #guestServices img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #lockersOne img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #healthCentre {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 499px;
+      margin-top: 150px;
+      position: absolute;
+    }
 
-  #lockersTwo {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 415px;
-    margin-top: 185px;
-    position: absolute;
-  }
+    #healthCentre img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
+    #sawKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 553px;
+      margin-top: 440px;
+      position: absolute;
+    }
 
-  #rockyExpress img {
-    width: 40px;
-    height: 40px;
-    border-radius: 90px;
-  }
+    #sawKiosk img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #lockersTwo img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
+    #colossusKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 495px;
+      margin-top: 340px;
+      position: absolute;
+    }
 
-  }
+    #colossusKiosk img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #lockersThree {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 560px;
-    margin-top: 450px;
-    position: absolute;
-  }
+    #infernoKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 305px;
+      margin-top: 400px;
+      position: absolute;
+    }
 
-  #detonator img {
-    width: 45px;
-    height: 45px;
-    border-radius: 90px;
-  }
+    #infernoKiosk img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #lockersThree img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #swarmKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 275px;
+      margin-top: 80px;
+      position: absolute;
+    }
 
-  #lockersFour {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 430px;
-    margin-top: 281px;
-    position: absolute;
-  }
+    #swarmKiosk img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
+    #gate {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 675px;
+      margin-top: 100px;
+      position: absolute;
+    }
 
-  #amityBeach img {
-    width: 75px;
-    height: 75px;
-    border-radius: 90px;
-    transform: rotate(305deg);
-  }
+    #gate img {
+      width: 60px;
+      height: 30px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #wet {
-    width: 75px;
-    height: 35px;
-    border-radius: 90px;
-    margin-left: 663px;
-    margin-top: 185px;
-    position: absolute;
-    transform: rotate(72deg);
-  }
-
-  #wet img {
-    width: 45px;
-    height: 40px;
-    border-radius: 90px;
-    margin-right: 80px;
-    transform: rotate(300deg)
-  }
-
-  #depthCharge {
-    width: 152px;
-    height: 35px;
-    border-radius: 90px;
-    margin-left: 664px;
-    margin-top: 214px;
-    position: absolute;
-    transform: rotate(72deg);
-  }
-
-  #depthCharge img {
-    width: 65px;
-    height: 65px;
-    border-radius: 90px;
-    margin-right: 10px;
-    transform: rotate(280deg);
-  }
-  #lockersFour img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #guestServices {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 503px;
-    margin-top: 160px;
-    position: absolute;
-  }
-
-  #guestServices img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #healthCentre {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 499px;
-    margin-top: 150px;
-    position: absolute;
-  }
-
-  #healthCentre img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #sawKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 553px;
-    margin-top: 440px;
-    position: absolute;
-  }
-
-  #sawKiosk img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #colossusKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 495px;
-    margin-top: 340px;
-    position: absolute;
-  }
-
-  #colossusKiosk img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #infernoKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 305px;
-    margin-top: 400px;
-    position: absolute;
-  }
-
-  #infernoKiosk img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #swarmKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 275px;
-    margin-top: 80px;
-    position: absolute;
-  }
-
-  #swarmKiosk img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #gate {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 675px;
-    margin-top: 100px;
-    position: absolute;
-  }
-
-  #gate img {
-    width: 60px;
-    height: 30px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  .titleLogo {
-
-    width: 200px;
-    height: 100%;
-  }
-
+    .titleLogo {
+      width: 200px;
+      height: 100%;
+    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -2027,7 +1923,6 @@
       height: 100%;
       float: left;
   }
-
   #facilitiesFilter {
       width: 190px;
       height: 100%;
@@ -2083,14 +1978,6 @@
     transform: rotate(358deg);
   }
 
-
-  #tidalWave img {
-    width: 180px;
-    height: 63px;
-    border-radius: 90px;
-    transform: rotate(0deg);
-  }
-
   #nemesis img {
     width: 185px;
     height: 80px;
@@ -2103,7 +1990,7 @@
     height: 40px;
     border-radius: 90px;
     margin-left: 460px;
-    margin-top: 605px;
+    margin-top: 610px;
     position: absolute;
     transform: rotate(26deg)
   }
@@ -2112,6 +1999,7 @@
     width: 90px;
     height: 40px;
     border-radius: 90px;
+    transform: rotate(0deg)
   }
 
   #derrenBrown {
@@ -2125,14 +2013,15 @@
   }
 
   #derrenBrown img {
-    width: 30px;
-    height: 115px;
-    border-radius: 90px;
-    transform: rotate(180deg);
+    width: 65px;
+    height: 65px;
+    border-radius: 25px;
+    margin-top: 25px;
+    transform: rotate(160deg);
   }
 
   #stormSurge {
-    width: 35px;
+    width: 45px;
     height: 220px;
     border-radius: 90px;
     margin-left: 710px;
@@ -2142,11 +2031,11 @@
   }
 
   #stormSurge img {
-    margin-bottom: 100px;
-    width: 50px;
+    margin-top: 40px;
+    width: 85px;
     height: 70px;
     border-radius: 90px;
-    transform: rotate(180deg);
+    transform: rotate(200deg);
   }
 
   #saw {
@@ -2208,8 +2097,8 @@
   }
 
   #rockyExpress img {
-    width: 17px;
-    height: 17px;
+    width: 40px;
+    height: 40px;
     border-radius: 90px;
   }
 
@@ -2223,8 +2112,8 @@
   }
 
   #detonator img {
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
     border-radius: 90px;
   }
 
@@ -2238,42 +2127,46 @@
   }
 
   #amityBeach img {
-    width: 150px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 90px;
+    transform: rotate(305deg);
   }
 
   #wet {
-    width: 65px;
+    width: 75px;
     height: 35px;
     border-radius: 90px;
-    margin-left: 665px;
-    margin-top: 190px;
+    margin-left: 663px;
+    margin-top: 185px;
     position: absolute;
-    transform: rotate(72deg)
+    transform: rotate(72deg);
   }
 
   #wet img {
-    width: 65px;
-    height: 35px;
+    width: 45px;
+    height: 40px;
     border-radius: 90px;
+    margin-right: 80px;
+    transform: rotate(300deg)
   }
 
   #depthCharge {
     width: 152px;
-    height: 22px;
+    height: 35px;
     border-radius: 90px;
-    margin-left: 654px;
+    margin-left: 664px;
     margin-top: 214px;
     position: absolute;
-    transform: rotate(72deg)
+    transform: rotate(72deg);
   }
 
   #depthCharge img {
-    width: 152px;
-    height: 22px;
+    width: 65px;
+    height: 65px;
     border-radius: 90px;
-    transform: rotate(180deg);
+    margin-right: 10px;
+    transform: rotate(280deg);
   }
 
   #tidalWave {
@@ -2287,10 +2180,10 @@
   }
 
   #tidalWave img {
-    width: 225px;
+    width: 180px;
     height: 63px;
     border-radius: 90px;
-    transform: rotate(180deg);
+    transform: rotate(0deg);
   }
 
   #stormCup {
@@ -2337,8 +2230,8 @@
   }
 
   #vortex img {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 90px;
   }
 
@@ -2352,8 +2245,8 @@
   }
 
   #zodiac img {
-    width: 33px;
-    height: 33px;
+    width: 40px;
+    height: 40px;
     border-radius: 90px;
   }
 
@@ -2367,8 +2260,8 @@
   }
 
   #rush img {
-    width: 30px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 90px;
   }
 
@@ -2382,8 +2275,8 @@
   }
 
   #quantum img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 90px;
   }
 
@@ -2413,10 +2306,11 @@
   }
 
   #angryBirds img {
-    width: 80px;
-    height: 60px;
-    border-radius: 10px;
-    transform: rotate(180deg);
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 40px;
+    transform: rotate(270deg);
   }
 
   #kingPig {
@@ -2430,8 +2324,8 @@
   }
 
   #kingPig img {
-    width: 35px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 20px;
   }
 
@@ -2447,9 +2341,9 @@
 
   #monkey img {
     width: 35px;
-    height: 25px;
+    height: 35px;
     border-radius: 20px;
-    transform: rotate(180deg);
+    transform: rotate(330deg);
   }
 
   #livingNightmare {
@@ -2474,17 +2368,17 @@
     width: 27px;
     height: 12px;
     border-radius: 20px;
-    margin-left: 663px;
+    margin-left: 665px;
     margin-top: 809px;
     position: absolute;
     transform: rotate(107deg);
   }
 
   #lumber img {
-    width: 27px;
-    height: 12px;
+    width: 40px;
+    height: 40px;
     border-radius: 20px;
-    transform: rotate(180deg);
+    transform: rotate(260deg);
   }
 
   #timber {
@@ -2498,10 +2392,10 @@
   }
 
   #timber img {
-    width: 67px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 20px;
-    transform: rotate(180deg);
+    transform: rotate(320deg);
   }
 
   #kfc {
@@ -2584,429 +2478,345 @@
     transform: rotate(0deg);
   }
 
-  #infernoPizza {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 340px;
-    margin-top: 470px;
-    position: absolute;
-  }
-
-  #infernoPizza img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #nitrogenie {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 552px;
-    margin-top: 546px;
-    position: absolute;
-  }
-
-  #nitrogenie img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #amityKebab {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 660px;
-    margin-top: 310px;
-    position: absolute;
-  }
-
-  #amityKebab img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #beachShack {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 642px;
-    margin-top: 240px;
-    position: absolute;
-  }
-
-  #beachShack img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #colossusSnack {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 696px;
-    margin-top: 725px;
-    position: absolute;
-  }
-
-  #colossusSnack img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #toiletOne {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 510px;
-    margin-top: 95px;
-    position: absolute;
-  }
-
-
-  #vortex img {
-    width: 40px;
-    height: 40px;
-    border-radius: 90px;
-  }
-
-  #toiletOne img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #toiletTwo {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 355px;
-    margin-top: 480px;
-    position: absolute;
-  }
-
-
-  #zodiac img {
-    width: 40px;
-    height: 40px;
-    border-radius: 90px;
+    #infernoPizza {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 340px;
+      margin-top: 470px;
+      position: absolute;
     }
 
-  #toiletTwo img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #toiletThree {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 650px;
-    margin-top: 740px;
-    position: absolute;
-  }
-
-
-  #rush img {
-    width: 40px;
-    height: 40px;
-    border-radius: 90px;
+    #infernoPizza img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
     }
 
-  #toiletThree img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-
-  }
-
-  #toiletFour {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 655px;
-    margin-top: 463px;
-    position: absolute;
-  }
-
-  #quantum img {
-    width: 40px;
-    height: 40px;
-    border-radius: 90px;
-  }
-
-  #toiletFour img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #toiletFive {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 850px;
-    margin-top: 255px;
-    position: absolute;
-  }
-
-  #toiletFive img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #lockersOne {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 855px;
-    margin-top: 265px;
-    position: absolute;
-  }
-
-
-  #angryBirds img {
-    width: 60px;
-    height: 50px;
-    margin-top: 15px;
-    border-radius: 40px;
-    transform: rotate(270deg);
+    #nitrogenie {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 552px;
+      margin-top: 546px;
+      position: absolute;
     }
 
-  #lockersOne img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-
-  }
-
-  #lockersTwo {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 649px;
-    margin-top: 292px;
-    position: absolute;
-  }
-
-
-  #kingPig img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-
-  #lockersTwo img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #lockersThree {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 890px;
-    margin-top: 710px;
-    position: absolute;
-  }
-
-
-  #monkey img {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
-    transform: rotate(330deg);
+    #nitrogenie img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
     }
 
-  #lockersThree img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-  #lockersFour {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 678px;
-    margin-top: 441px;
-    position: absolute;
-  }
-
-  #lockersFour img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
-
-
-  #lumber {
-    width: 27px;
-    height: 12px;
-    border-radius: 20px;
-    margin-left: 665px;
-    margin-top: 809px;
+    #amityKebab {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 660px;
+      margin-top: 310px;
+      position: absolute;
     }
 
-  #guestServices {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 793px;
-    margin-top: 255px;
-    position: absolute;
-  }
-
-
-  #lumber img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(260deg);
+    #amityKebab img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
     }
 
-  #guestServices img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-
-  }
-
-  #healthCentre {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 789px;
-    margin-top: 240px;
-    position: absolute;
-  }
-
-
-  #timber img {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
-    transform: rotate(320deg);
+    #beachShack {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 642px;
+      margin-top: 240px;
+      position: absolute;
     }
 
-  #healthCentre img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
+    #beachShack img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  }
+    #colossusSnack {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 696px;
+      margin-top: 725px;
+      position: absolute;
+    }
 
-  #sawKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 870px;
-    margin-top: 715px;
-    position: absolute;
-  }
+    #colossusSnack img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #sawKiosk img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #toiletOne {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 510px;
+      margin-top: 95px;
+      position: absolute;
+    }
 
-  #colossusKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 780px;
-    margin-top: 490px;
-    position: absolute;
-  }
+    #toiletOne img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #colossusKiosk img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #toiletTwo {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 355px;
+      margin-top: 480px;
+      position: absolute;
+    }
 
-  #infernoKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 475px;
-    margin-top: 620px;
-    position: absolute;
-  }
+    #toiletTwo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  #infernoKiosk img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #toiletThree {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 650px;
+      margin-top: 740px;
+      position: absolute;
+    }
 
-  #swarmKiosk {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 425px;
-    margin-top: 120px;
-    position: absolute;
-  }
+    #toiletThree img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
 
-  #swarmKiosk img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    }
 
-  #gate {
-    width: 10px;
-    height: 10px;
-    border-radius: 40px;
-    margin-left: 1060px;
-    margin-top: 160px;
-    position: absolute;
-  }
+    #toiletFour {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 655px;
+      margin-top: 463px;
+      position: absolute;
+    }
 
-  #gate img {
-    width: 80px;
-    height: 40px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-  }
+    #toiletFour img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
-  .titleLogo {
+    #toiletFive {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 850px;
+      margin-top: 255px;
+      position: absolute;
+    }
 
-    width: 200px;
-    height: 100%;
-  }
+    #toiletFive img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
 
+    #lockersOne {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 855px;
+      margin-top: 265px;
+      position: absolute;
+    }
 
+    #lockersOne img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #lockersTwo {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 649px;
+      margin-top: 292px;
+      position: absolute;
+    }
+
+    #lockersTwo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #lockersThree {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 890px;
+      margin-top: 710px;
+      position: absolute;
+    }
+
+    #lockersThree img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #lockersFour {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 678px;
+      margin-top: 441px;
+      position: absolute;
+    }
+
+    #lockersFour img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #guestServices {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 793px;
+      margin-top: 255px;
+      position: absolute;
+    }
+
+    #guestServices img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #healthCentre {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 789px;
+      margin-top: 240px;
+      position: absolute;
+    }
+
+    #healthCentre img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #sawKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 870px;
+      margin-top: 715px;
+      position: absolute;
+    }
+
+    #sawKiosk img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #colossusKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 780px;
+      margin-top: 490px;
+      position: absolute;
+    }
+
+    #colossusKiosk img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #infernoKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 475px;
+      margin-top: 620px;
+      position: absolute;
+    }
+
+    #infernoKiosk img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #swarmKiosk {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 425px;
+      margin-top: 120px;
+      position: absolute;
+    }
+
+    #swarmKiosk img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    #gate {
+      width: 10px;
+      height: 10px;
+      border-radius: 40px;
+      margin-left: 1060px;
+      margin-top: 160px;
+      position: absolute;
+    }
+
+    #gate img {
+      width: 80px;
+      height: 40px;
+      border-radius: 20px;
+      transform: rotate(0deg);
+    }
+
+    .titleLogo {
+      width: 200px;
+      height: 100%;
+    }
 }
