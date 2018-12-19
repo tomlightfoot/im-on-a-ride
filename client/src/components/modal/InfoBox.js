@@ -78,7 +78,6 @@ class InfoBox extends Component {
       </div>
       <h4>{this.props.feature.name}</h4>
 
-        <ul>Thrill Rating = {this.props.feature.thrill}</ul>
         <ul>Ridetime = {this.props.feature.ridetime}</ul>
         <ul>Category = {this.props.feature.category}</ul>
         <ul>Minimum Height = {this.props.feature.minheight}</ul>
