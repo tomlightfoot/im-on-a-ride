@@ -69,26 +69,36 @@ class InfoBox extends Component {
     return (
       <div className='modal' ref={node => (this.modal = node)}>
 
-          <div className='modalContent'>
+        <div className='modalContent'>
           {children}
+          <button type='button' className='closeButton' onClick={onCloseRequest}>&times;</button>
 
-        <button
-          type='button'
-          className='closeButton' onClick={onCloseRequest}>&times;</button>
-      </div>
-      <h4>{this.props.feature.name}</h4>
+          <h4>{this.props.feature.name}</h4>
+          <ul>
+            <li>
+              Thrill Rating = {this.props.feature.thrill}
+              <button className='menubtn' id='revbtn' type='button' onClick={this.handleToggleReview.bind(this)}>Feedback</button>
+            </li>
+            <li>
+              Ridetime = {this.props.feature.ridetime}
+            </li>
+            <li>
+              Category = {this.props.feature.category}
+            </li>
+            <li>
+              Minimum Height = {this.props.feature.minheight}
+            </li>
+            <li>
+              Minimum Age = {this.props.feature.minage}
+            </li>
+          </ul>
+          <Video feature={this.props.feature.video}/>
 
-        <ul>Thrill Rating = {this.props.feature.thrill}</ul>
-        <ul>Ridetime = {this.props.feature.ridetime}</ul>
-        <ul>Category = {this.props.feature.category}</ul>
-        <ul>Minimum Height = {this.props.feature.minheight}</ul>
-        <ul>Minimum Age = {this.props.feature.minage}</ul>
-        <Video feature={this.props.feature.video}/>
-        <button className='menubtn' id='revbtn' type='button' onClick={this.handleToggleReview.bind(this)}>Feedback</button>
 
-        {showReview &&
-    <Review feature={this.state.feature} callBackFromParent={this.handleToggleReview.bind(this)}>
-    </Review>}
+          {showReview &&
+          <Review feature={this.state.feature} callBackFromParent={this.handleToggleReview.bind(this)}>
+          </Review>}
+        </div>
 
       </div>
     );
