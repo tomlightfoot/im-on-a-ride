@@ -86,6 +86,8 @@ We agreed during our initial planning process that we wanted to:
 * [Express](https://expressjs.com/) - Our server framework using for the backend.
 * [Npm](https://www.npmjs.com/) - A package manager for Javascript.
 * [Heroku](https://www.heroku.com/) - The cloud platform we used to deploy our app.
+* [Mlab](https://mlab.com) - The cloud database service we used to host our database. 
+* [Mognoose](https://mongoosejs.com/) - 
 
 
 ## The MVP of our app  
