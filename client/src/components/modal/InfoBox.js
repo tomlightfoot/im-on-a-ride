@@ -4,6 +4,10 @@ import Review from './review'
 import Video from './video'
 import './InfoBoxStyle.css'
 
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 class InfoBox extends Component {
 
   constructor(props) {
@@ -79,7 +83,7 @@ class InfoBox extends Component {
       <h4>{this.props.feature.name}</h4>
 
         <ul>Ridetime = {this.props.feature.ridetime}</ul>
-        <ul>Category = {this.props.feature.category}</ul>
+        <ul>Category = {capitalize(this.props.feature.category)}</ul>
         <ul>Minimum Height = {this.props.feature.minheight}</ul>
         <ul>Minimum Age = {this.props.feature.minage}</ul>
         <Video feature={this.props.feature.video}/>
