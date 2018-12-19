@@ -1,47 +1,37 @@
-.modal {
-  position: absolute;
-  color: yellow;
-  text-align: left;
-  top: 10%;
-  left: 10px;
-  width: min;
-  height: 80%;
-  padding-left: 20px;
-  padding-right: 20px;
-  animation: slide 2s ease;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: initial;
-}
-
 h4 {
   text-decoration: underline;
   text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
-#revbtn {
-  width: 100px;
-  z-index: 0;
-}
-
-.reviewModal {
-  display:flex;
-  justify-content: center;
-  width: 20%;
-  height: 40%;
-  position: absolute;
-  animation: review 1.5s ease-out;
-  background: rgba(0, 0, 0, 0.6);
-  bottom: 0;
-  left: 100%;
-  z-index: 1;
-}
 h2, p {
   display: block;
   animation: test 2s;
 }
 
-.reviewModal {
-  display: block;
+li {
+  list-style: none;
+  height: 10%;
+  font-size: 1.5vw;
+}
+
+ul {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 5%
+}
+
+.modal {
+  position: absolute;
+  color: yellow;
+  text-align: left;
+  height: 70vh;
+  width: 30vw;
+  animation: expand 0.5s ease;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: auto;
+  z-index: initial;
 }
 
 .modalOverlay {
@@ -57,8 +47,45 @@ h2, p {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.reviewModal {
+  display:flex;
+  justify-content: center;
+  width: 25%;
+  height: 40%;
+  position: absolute;
+  animation: review 1.5s ease-out;
+  background: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  left: 100%;
+  z-index: 1;
+}
+
+.reviewModal {
+  display: block;
+}
+
+.video {
+  height: 3px;
+  width: 3px;
+}
+
+.closeButton {
+  position: absolute;
+  text-align: center;
+  color: white;
+  right: 3px;
+  top: 3px;
+  padding: 0;
+  padding-left: 1px;
+  height: 22px;
+  width: 22px;
+  font-size: 16px;
+  background: purple;
+}
+
 .closeButton:hover {
-  color: black;
+  color: purple;
+  background-color: white;
   text-decoration: none;
   cursor: grab;
 }
@@ -67,18 +94,17 @@ h2, p {
   cursor: grabbing;
 }
 
-.closeButton {
+#revbtn {
   position: absolute;
-  color: #aaa;
-  right: 0;
-  font-size: 28px;
-  font-weight: bold;
-  background: #fff;
   padding: 0;
-  border: 0;
-  outline: 0;
+  width: 20%;
+  height: 2.5vh;
+  margin: 0;
+  margin-right: 3%;
+  font-size: 1vw;
+  right: 0;
+  z-index: 0;
 }
-
 
 @keyframes review {
   0% {
@@ -100,7 +126,11 @@ h2, p {
   }
 }
 
-@keyframes slide {
-  from { left: -300px; }
-  to { left: 10px; }
+@keyframes expand {
+  from {
+    transform: scale(0);
+   }
+  to {
+    transform: scale(1);
+  }
 }

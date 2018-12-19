@@ -9,7 +9,7 @@ class InfoBox extends Component {
   constructor(props) {
     super(props);
     this.handleKeyUp = this.handleKeyUp.bind(this);
-    this.handleOutsideClick = this.handleOutsideClick.bind(this);
+    // this.handleOutsideClick = this.handleOutsideClick.bind(this);
     this.state = {
       feature: this.props.feature,
       showReview: false
@@ -47,16 +47,16 @@ class InfoBox extends Component {
   }
 
   // Handling the mouse click on browser window.
-  handleOutsideClick(e) {
-    const { onCloseRequest } = this.props;
-
-    if (!isNil(this.modal)) {
-      if (!this.modal.contains(e.target)) {
-        onCloseRequest();
-        document.removeEventListener('click', this.handleOutsideClick, false);
-      }
-    }
-  }
+  // handleOutsideClick(e) {
+  //   const { onCloseRequest } = this.props;
+  //
+  //   if (!isNil(this.modal)) {
+  //     if (!this.modal.contains(e.target)) {
+  //       onCloseRequest();
+  //       document.removeEventListener('click', this.handleOutsideClick, false);
+  //     }
+  //   }
+  // }
 
   // passing in onCloseRequest and children props.
   render () {
@@ -68,27 +68,20 @@ class InfoBox extends Component {
 
     return (
       <div className='modal' ref={node => (this.modal = node)}>
-
-          <div className='modalContent'>
-          {children}
-
-        <button
-          type='button'
-          className='closeButton' onClick={onCloseRequest}>&times;</button>
-      </div>
-      <h4>{this.props.feature.name}</h4>
-
-        <ul>Ridetime = {this.props.feature.ridetime}</ul>
-        <ul>Category = {this.props.feature.category}</ul>
-        <ul>Minimum Height = {this.props.feature.minheight}</ul>
-        <ul>Minimum Age = {this.props.feature.minage}</ul>
-        <Video feature={this.props.feature.video}/>
-        <button className='menubtn' id='revbtn' type='button' onClick={this.handleToggleReview.bind(this)}>Feedback</button>
-
+        {children}
+        <button type='button' className='closeButton' onClick={onCloseRequest}>&#10006;</button>
+        <h4>{this.props.feature.name}</h4>
+        <ul>
+          <li>Thrill rating = {Math.round((this.props.feature.thrill.reduce((accumulator, currentValue) => accumulator + currentValue)/this.props.feature.thrill.length) * 100) / 100} <button className='menubtn' id='revbtn' type='button' onClick={this.handleToggleReview.bind(this)}>Feedback</button></li>
+          <li>Ridetime = {this.props.feature.ridetime}</li>
+          <li>Category = {this.props.feature.category}</li>
+          <li>Minimum Height = {this.props.feature.minheight}</li>
+          <li>Minimum Age = {this.props.feature.minage}</li>
+        </ul>
+        <Video className="video" feature={this.props.feature.video}/>
         {showReview &&
-    <Review feature={this.state.feature} callBackFromParent={this.handleToggleReview.bind(this)}>
-    </Review>}
-
+        <Review feature={this.state.feature} callBackFromParent={this.handleToggleReview.bind(this)}>
+        </Review>}
       </div>
     );
   }
