@@ -4,6 +4,10 @@ import Review from './review'
 import Video from './video'
 import './InfoBoxStyle.css'
 
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 class InfoBox extends Component {
 
   constructor(props) {
