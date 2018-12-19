@@ -75,8 +75,8 @@ class Review extends Component {
     <div className='reviewModal'>
       <h2>Feedback</h2>
       <p>Please click a rating:</p>
-        <div style={{fontSize: 18}}>
-          <StarRatingComponent
+        <div style={{fontSize: "1.1vw"}}>
+          <StarRatingComponent className="star"
             name="app6"
             starColor="#ffb400"
             emptyStarColor="#ffb400"
@@ -100,7 +100,7 @@ class Review extends Component {
               );
             }} />
         </div>
-        <button onClick={this.submitReview.bind(this)}>Submit review!</button>
+        <button className="reviewButton" onClick={this.submitReview.bind(this)}>Submit review!</button>
     </div>
     )
   }

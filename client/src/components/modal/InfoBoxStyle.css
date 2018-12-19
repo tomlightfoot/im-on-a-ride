@@ -26,7 +26,7 @@ ul {
   position: absolute;
   color: yellow;
   text-align: left;
-  height: 70vh;
+  height: 50vh;
   width: 30vw;
   animation: expand 0.5s ease;
   background: rgba(0, 0, 0, 0.6);
@@ -48,20 +48,36 @@ ul {
 }
 
 .reviewModal {
-  display:flex;
-  justify-content: center;
-  width: 25%;
-  height: 40%;
+  display: block;
   position: absolute;
+  width: 100px;
+  height: 180px;
+  top: 0;
+  left: 100%;
+  padding: 4px;
+  font-size: 1.2vw;
   animation: review 1.5s ease-out;
   background: rgba(0, 0, 0, 0.6);
-  bottom: 0;
-  left: 100%;
   z-index: 1;
 }
 
-.reviewModal {
-  display: block;
+.reviewModal h2, p {
+  margin: 0;
+}
+
+.reviewButton {
+  position: absolute;
+  text-align: center;
+  font-size: 1.1vw;
+  animation: test 2s;
+  color: white;
+  padding: 0;
+  padding-left: 1px;
+  background: purple;
+}
+
+.star {
+  animation: test 2s;
 }
 
 .video {
@@ -77,9 +93,6 @@ ul {
   top: 3px;
   padding: 0;
   padding-left: 1px;
-  height: 22px;
-  width: 22px;
-  font-size: 16px;
   background: purple;
 }
 
