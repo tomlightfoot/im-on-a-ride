@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Button from '../button'
 
-const hello = <h1>Hello, this is where the LegoLand park map will go</h1>
+const hello = <h1>LegoLand park map coming soon!</h1>
 
 class LegoMap extends Component {
   render() {
