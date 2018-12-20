@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import Button from '../button'
 import '.././styles/altonmap.css';
 
+const hello = <h1 id="altonTitle">Alton Towers map coming soon!</h1>
+
 class AltonMap extends Component {
 
   render() {
 
-      const hello = <h1>Alton Towers map coming soon!</h1>
     return (
       <div>
           {hello}

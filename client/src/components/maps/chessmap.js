@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Button from '../button'
 import '.././styles/chessmap.css';
 
-const hello = <h1>Chessington map coming soon!</h1>
+const hello = <h1 id="chessTitle">Chessington map coming soon!</h1>
 
 class ChessMap extends Component {
   render() {
