@@ -90,8 +90,6 @@ We agreed during our initial planning process that we wanted to:
 * [Mongoose](https://mongoosejs.com/) - What we use to talk to the database.
 
 
-## The MVP of our app  
-
 ### Authors
 
 * Thomas Lightfoot - [tomlightfoot](https://github.com/tomlightfoot)
