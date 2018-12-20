@@ -23,6 +23,11 @@ class InfoBox extends Component {
     this.setState({ showReview: !this.state.showReview });
   }
 
+  callbacks() {
+    this.props.callBackFromParent(this.state.feature.name);
+    this.handleToggleReview();
+  }
+
   // listeners for click or key press to exit modal
   componentDidMount() {
     window.addEventListener('keyup', this.handleKeyUp, false);
@@ -70,7 +75,7 @@ class InfoBox extends Component {
         </ul>
         <Video className="video" feature={this.props.feature.video}/>
         {showReview &&
-        <Review feature={this.state.feature} callBackFromParent={this.handleToggleReview.bind(this)}>
+        <Review feature={this.state.feature} callBackFromParent={this.callbacks.bind(this)}>
         </Review>}
       </div>
     );

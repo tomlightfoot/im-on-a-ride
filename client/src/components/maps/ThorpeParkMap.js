@@ -26,12 +26,20 @@ class ThorpeParkMap extends Component {
     .then(data => this.setState({ features: data}, () => console.log('Complete')))
   }
 
-  toggleRideInfo(ride) {
+  refresh(ride) {
+    fetch('/attractions')
+    .then(res => res.json())
+    .then(data => this.setState({ features: data}, () => console.log('Complete')))
+    .then(() => this.toggleRideInfo(ride))
+  }
 
+  toggleRideInfo(ride) {
     let rideInfo = this.state.features.filter(feature => feature.name === ride)[0]
     this.setState({ feature: rideInfo })
-    console.log(this.state.feature);
-    this.handleToggleModal()
+    console.log(ride);
+    if (this.state.showModal === false) {
+      this.handleToggleModal()
+    }
   }
 
   handleToggleModal() {
@@ -255,7 +263,7 @@ class ThorpeParkMap extends Component {
         </section>
       </div>
     {showModal &&
-    <InfoBox feature={this.state.feature} onCloseRequest={() => this.handleToggleModal()}>
+    <InfoBox feature={this.state.feature} onCloseRequest={() => this.handleToggleModal()} callBackFromParent={this.refresh.bind(this)}>
     </InfoBox>}
     </div>
     )

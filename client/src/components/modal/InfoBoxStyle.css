@@ -8,7 +8,7 @@ h4 {
 
 h2, p {
   display: block;
-  animation: test 2s;
+  animation: test 1s;
 }
 
 li {
@@ -57,7 +57,7 @@ ul {
   left: 100%;
   padding: 4px;
   font-size: 1.2vw;
-  animation: review 1.5s ease-out;
+  animation: review 1s ease;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
@@ -67,7 +67,7 @@ ul {
 }
 
 .star {
-  animation: test 2s;
+  animation: test 1s;
 }
 
 .video {
@@ -116,7 +116,7 @@ ul {
   font-weight: bold;
   height: 13%;
   width: 80%;
-  animation: test 2s;
+  animation: test 1s;
   color: white;
   padding: 0;
   padding-left: 1px;
@@ -139,7 +139,6 @@ ul {
   font-weight: bold;;
   height: 13%;
   width: 80%;
-  animation: test 2s;
   color: white;
   padding: 0;
   padding-left: 1px;
@@ -188,7 +187,7 @@ ul {
 }
 
 @keyframes test {
-  0%, 80% {
+  0%, 50% {
     opacity: 0;
   }
   100% {
