@@ -5,7 +5,7 @@ import '.././App.css'
 class Button extends Component {
   render() {
     return (
-      <button className='menubtn' type='submit'>{this.props.name}</button>
+      <button className={this.props.className} type='submit'>{this.props.name}</button>
     );
   }
 }

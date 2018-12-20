@@ -243,6 +243,7 @@ class ThorpeParkMap extends Component {
           <div ref="5c0e78b3fb6fc04dd6e955d1" id="swarmKiosk" className="facility">
             <img src={require('.././images/facilities/kiosk.png')} alt="swarmKiosk" />
           </div>
+          <Link to='/'><Button className='thorpeButton' name='Back' /></Link>
         </div>
         <section id="filters">
           <div id="attractionsFilter">
@@ -253,7 +254,6 @@ class ThorpeParkMap extends Component {
           </div>
         </section>
       </div>
-    <Link to='/'><Button class='back' name='back' /></Link>
     {showModal &&
     <InfoBox feature={this.state.feature} onCloseRequest={() => this.handleToggleModal()}>
     </InfoBox>}

@@ -1,39 +1,45 @@
 body {
   font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   font-display: swap;
   text-align: center;
   background-color: #bbb;
-
 }
 
-.menupage {
-  padding: 10px;
+h1 {
+  color: purple;
 }
 
-.menubtn {
+button {
+  font-size: 18px;
+  font-weight: bold;
   border-radius: 5px;
-  width: 100vw;
+  width: 60vw;
   height: 40px;
   margin: 5px;
   background-color: purple;
   color: white;
 }
 
-.menubtn:hover {
-  width: 100vw;
+button:hover {
+  width: 60vw;
   height: 40px;
   background-color: white;
   color: purple;
   border: 2px solid purple;
 }
 
-.menubtn:active {
+button:active {
   border-radius: 5px;
-  width: 100vw;
+  width: 60vw;
   height: 40px;
   margin: 5px;
   background-color: #ccc;
   color: black;
+}
+
+.menupage {
+  padding: 10px;
 }
 
 .menubtnlst {

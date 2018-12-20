@@ -4,8 +4,9 @@ h5 {
 }
 
 .main {
-  height: 10vh;
-  font-size: 1.3vw;
+  position: absolute;
+  height: 10%;
+  color: white;
 }
 
 .container {
@@ -29,8 +30,8 @@ h5 {
   border: 1px solid rgba(0,0,0,0.2);
   background: white;
   vertical-align: middle;
-  width: 1.35em;
-  height: 1.35em;
+  width: 1.3em;
+  height: 1.3em;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -52,6 +53,9 @@ h5 {
 
 .label__text {
   color: white;
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .label__checkbox:checked + .label__text .label__check {
@@ -102,17 +106,37 @@ h5 {
     border-width: 0;
   }
   50% {
-    width: 1.7em;
-    height: 1.7em;
+    width: 1.5em;
+    height: 1.5em;
     background: #D3D3D3;
     border: 0;
     opacity: 0.6;
   }
   100% {
-    width: 1.6em;
-    height: 1.6em;
+    width: 1.4em;
+    height: 1.4em;
     background: #A9A9A9;
     border: 0;
     opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .label__text {
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 3px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .container {
+    height: 10px;
+    margin-bottom: 2px;
+  }
+
+  .label__text {
+    margin-top: 2px;
   }
 }

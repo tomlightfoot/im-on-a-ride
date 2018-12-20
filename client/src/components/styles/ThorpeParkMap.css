@@ -35,6 +35,42 @@
   height: 100%;
 }
 
+.thorpeButton {
+  position: absolute;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: 'Oswald';
+  border-radius: 5px;
+  bottom: 0.1vw;
+  right: 3.75vw;
+  height: 3vw;
+  width: 5vw;
+  margin-right: 5vw;
+  margin: 5px;
+  background-color: #00aac8;
+}
+
+.thorpeButton:hover {
+  border-radius: 5px;
+  height: 3vw;
+  width: 5vw;
+  margin-right: 5vw;
+  margin: 5px;
+  border-color: #00aac8;
+  color: #00aac8;
+  background-color: white;
+}
+
+.thorpeButton:active {
+  border-radius: 5px;
+  height: 3vw;
+  width: 5vw;
+  margin-right: 5vw;
+  margin: 5px;
+  color: white;
+  background-color: #00aac8;
+}
+
 #titleHolder {
   width: 100%;
 }
@@ -70,21 +106,30 @@
     display: block;
     width: 166px;
     height: 90px;
+    font-size: 8px;
     bottom: 0px;
     border: 2px solid rgba(0,0,0,0.2);
     background: #00aac8;
   }
 
-  #attractionsFilter {
-      width: 78px;
-      height: 100%;
-      padding-left: 5px;
-      float: left;
+  #filters h5 {
+    width: 83px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 9px;
   }
 
+  #attractionsFilter {
+      width: 80px;
+      height: 100%;
+      padding-left: 3px;
+      padding-bottom: 5px;
+      float: left;
+  }
   #facilitiesFilter {
       width: 83px;
-      height: 100%;
+      height: 95%;
+      margin-bottom: 5%;
       float: right;
   }
 
@@ -994,22 +1039,32 @@
   #filters {
     position: absolute;
     display: block;
-    width: 265px;
-    height: 163px;
+    font-size: 10px;
+    width: 242px;
+    height: 125px;
     bottom: 0px;
     border: 2px solid rgba(0,0,0,0.2);
     background: #00aac8;
+    padding-bottom: 3px;
+  }
+
+  #filters h5 {
+    width: 118px;
+    margin-top: 2px;
+    font-size: 12px;
   }
 
   #attractionsFilter {
-      width: 128px;
+      width: 116px;
       height: 100%;
       padding-left: 5px;
+      padding-bottom: 5px;
       float: left;
   }
   #facilitiesFilter {
-      width: 132px;
-      height: 100%;
+      width: 121px;
+      height: 95%;
+      margin-bottom: 5%;
       float: right;
   }
 
@@ -1910,22 +1965,32 @@
   #filters {
     position: absolute;
     display: block;
+    font-size: 17.7px;
     width: 380px;
     height: 205px;
     bottom: 0px;
     border: 2px solid rgba(0,0,0,0.2);
     background: #00aac8;
+    padding-bottom: 5px;
+  }
+
+  #filters h5 {
+    width: 190px;
+    margin-top: 2px;
+    font-size: 20px;
   }
 
   #attractionsFilter {
       width: 185px;
-      padding-left: 5px;
       height: 100%;
+      padding-left: 5px;
+      padding-bottom: 5px;
       float: left;
   }
   #facilitiesFilter {
       width: 190px;
-      height: 100%;
+      height: 95%;
+      margin-bottom: 5%;
       float: right;
   }
 

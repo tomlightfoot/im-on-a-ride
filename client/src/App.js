@@ -15,7 +15,7 @@ class MyMenu extends Component {
           {title}
         </div>
         <div className='menubtnlst'>
-        <Link to='/thorpe/map'><Button name='ThorpePark'></Button></Link>
+        <Link to='/thorpe/map'><Button name='Thorpe Park'></Button></Link>
         <Link to='/alton/map'><Button name='Alton'></Button></Link>
         <Link to='/chess/map'><Button name='Chessington'></Button></Link>
         <Link to='/lego/map'><Button name='Legoland'></Button></Link>
@@ -25,7 +25,7 @@ class MyMenu extends Component {
   }
 }
 
-const title = <h1>I'm on a Ride!</h1>
+const title = <h1>I'm in a Park!</h1>
 
 
 class App extends Component {

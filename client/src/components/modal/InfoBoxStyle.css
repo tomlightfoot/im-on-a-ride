@@ -1,8 +1,9 @@
 h4 {
   text-decoration: underline;
   text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  font-size: 2vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 h2, p {
@@ -24,9 +25,9 @@ ul {
 
 .modal {
   position: absolute;
-  color: yellow;
+  color: white;
   text-align: left;
-  height: 50vh;
+  height: 40vw;
   width: 30vw;
   animation: expand 0.5s ease;
   background: rgba(0, 0, 0, 0.6);
@@ -50,8 +51,8 @@ ul {
 .reviewModal {
   display: block;
   position: absolute;
-  width: 100px;
-  height: 180px;
+  width: 25%;
+  height: 25%;
   top: 0;
   left: 100%;
   padding: 4px;
@@ -63,17 +64,6 @@ ul {
 
 .reviewModal h2, p {
   margin: 0;
-}
-
-.reviewButton {
-  position: absolute;
-  text-align: center;
-  font-size: 1.1vw;
-  animation: test 2s;
-  color: white;
-  padding: 0;
-  padding-left: 1px;
-  background: purple;
 }
 
 .star {
@@ -89,34 +79,101 @@ ul {
   position: absolute;
   text-align: center;
   color: white;
-  right: 3px;
+  height: 1.5vw;
+  width: 1.5vw;
+  font-weight: normal;
+  font-size: 1vw;
+  border-radius: 4px;
+  left: 3px;
   top: 3px;
   padding: 0;
   padding-left: 1px;
-  background: purple;
+  background: #00aac8;
 }
 
 .closeButton:hover {
-  color: purple;
   background-color: white;
-  text-decoration: none;
-  cursor: grab;
+  height: 1.5vw;
+  width: 1.5vw;
+  color: #00aac8;
+  border: 1px solid #00aac8;
 }
 
-.closeButton:focus {
-  cursor: grabbing;
+.closeButton:active {
+  height: 1.5vw;
+  width: 1.5vw;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #00aac8;
+  color: black;
+}
+
+
+.reviewButton {
+  position: absolute;
+  text-align: center;
+  font-size: 0.7vw;
+  font-weight: bold;
+  height: 13%;
+  width: 80%;
+  animation: test 2s;
+  color: white;
+  padding: 0;
+  padding-left: 1px;
+  background: #00aac8;
+}
+
+.reviewButton:hover {
+  height: 13%;
+  width: 80%;
+  color: #00aac8;
+  padding: 0;
+  padding-left: 1px;
+  background: white;
+  border: 1px solid #00aac8;
+}
+
+.reviewButton:active {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;;
+  height: 13%;
+  width: 80%;
+  animation: test 2s;
+  color: white;
+  padding: 0;
+  padding-left: 1px;
+  background: #00aac8;
 }
 
 #revbtn {
   position: absolute;
   padding: 0;
+  height: 4.5%;
+  width: 80%;
   width: 20%;
-  height: 2.5vh;
   margin: 0;
   margin-right: 3%;
+  background-color: #00aac8;
   font-size: 1vw;
   right: 0;
   z-index: 0;
+}
+
+#revbtn:hover {
+  background-color: white;
+  height: 4.5%;
+  width: 20%;
+  color: #00aac8;
+  border: 1px solid #00aac8;
+}
+
+#revbtn:active {
+  height: 4.5%;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #00aac8;
+  color: white;
 }
 
 @keyframes review {
