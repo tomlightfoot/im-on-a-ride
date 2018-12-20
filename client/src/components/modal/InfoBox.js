@@ -23,7 +23,7 @@ class InfoBox extends Component {
     this.setState({ showReview: !this.state.showReview });
   }
 
-  callbacks() {
+  callBackFromParent() {
     this.props.callBackFromParent(this.state.feature.name);
     this.handleToggleReview();
   }
@@ -75,7 +75,7 @@ class InfoBox extends Component {
         </ul>
         <Video className="video" feature={this.props.feature.video}/>
         {showReview &&
-        <Review feature={this.state.feature} callBackFromParent={this.callbacks.bind(this)}>
+        <Review feature={this.state.feature} callBackFromParent={this.callBackFromParent.bind(this)}>
         </Review>}
       </div>
     );
